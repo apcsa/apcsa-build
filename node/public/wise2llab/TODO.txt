@@ -1,0 +1,6 @@
+
+
+-- HTML
+
+remove 'audio=X' attributes from any tag
+remove all <script> tags in <head>, replace with
