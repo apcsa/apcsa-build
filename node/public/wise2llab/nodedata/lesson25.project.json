@@ -1,0 +1,299 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"S",
+   "title":"/lesson25",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"examples0",
+         "title":"Summing over an interval",
+         "ref":"examples0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"examples1",
+         "title":"Approaching the base case?",
+         "ref":"examples1.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"examples10",
+         "title":"contains1MoreThan",
+         "ref":"examples10.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"examples11",
+         "title":"When it works, and when it doesn't",
+         "ref":"examples11.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"examples12",
+         "title":"Explanation of the bug",
+         "ref":"examples12.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"examples2",
+         "title":"An equivalent recursive call",
+         "ref":"examples2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"examples3",
+         "title":"Bug symptoms",
+         "ref":"examples3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"examples4",
+         "title":"Analyzing the buggy method",
+         "ref":"examples4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"examples5",
+         "title":"Another set implementation",
+         "ref":"examples5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"examples6",
+         "title":"A contains method",
+         "ref":"examples6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "class": "intro",
+         "identifier": "examples7",
+         "previousWorkNodeIds": [],
+         "ref": "examples7.ht",
+         "title": "A remove method",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "examples8",
+         "previousWorkNodeIds": [],
+         "ref": "examples8.ht",
+         "title": "Printing with commas",
+         "type": "HtmlNode"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro0",
+         "title":"Introduction to recursion",
+         "ref":"intro0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro1",
+         "title":"A method calling itself?",
+         "ref":"intro1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro2",
+         "title":"An example",
+         "ref":"intro2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro3",
+         "title":"Tracing through the example",
+         "ref":"intro3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro4",
+         "title":"Self-check: *** what kind of step?",
+         "ref":"intro4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro5",
+         "title":"Self-check again: *** what kind of step?",
+         "ref":"intro5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro6",
+         "title":"Review",
+         "ref":"intro6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro7",
+         "title":"How it works",
+         "ref":"intro7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro8",
+         "title":"Role playing",
+         "ref":"intro8.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro9",
+         "title":"Guides to understanding recursion",
+         "ref":"intro9.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_0.bs",
+         "title":"Self-check (1)",
+         "ref":"node_0.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_1.bs",
+         "title":"Self-check (2)",
+         "ref":"node_1.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_2.bs",
+         "title":"Self-check(3)",
+         "ref":"node_2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_3.bs",
+         "title":"Recursive vs iterative implementations",
+         "ref":"node_3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_lt0",
+            "seq_0",
+            "seq_1"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_lt0",
+         "title":"Recursion",
+         "view":"",
+         "refs":["intro0"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"Details of recursion",
+         "view":"",
+         "refs":["intro1",
+            "intro2",
+            "intro3",
+            "node_0.bs",
+            "node_1.bs",
+            "node_2.bs",
+            "intro6",
+            "intro7",
+            "intro8",
+            "intro9"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Examples of recursion",
+         "view":"",
+         "refs":["examples0",
+            "examples1",
+            "examples2",
+            "examples3",
+            "examples4",
+            "examples5",
+            "examples6",
+            "examples7",
+            "examples8",
+            "node_3.bs",
+            "examples10",
+            "examples11",
+            "examples12"
+         ]
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 8: Lesson 25"
+}

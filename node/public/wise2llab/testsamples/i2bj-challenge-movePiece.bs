@@ -1,0 +1,34 @@
+{
+   "assessmentItem": {
+      "adaptive": false,
+      "identifier": "Brainstorm",
+      "interaction": {
+         "expectedLines": "0",
+         "prompt": "\n                \n                    <p audio=\"1\">Use the move methods with parameters to move the piece to the board's lower-right corner. What sequence of method calls did you make on the piece to move it there?</p>\n                ",
+         "responseIdentifier": "Brainstorm"
+      },
+      "timeDependent": false
+   },
+   "cannedResponses": [
+      {
+         "name": "Charlene",
+         "response": "\n            I did moveDown until I got to the bottom row, and then moveRight until I got to the corner.\n        "
+      },
+      {
+         "name": "Chris",
+         "response": "\n            I first said moveRight (10) then moveDown (10) and there I was!\n        "
+      }
+   ],
+   "displayName": "2",
+   "isGated": true,
+   "isInstantPollActive": false,
+   "isPollEnded": false,
+   "isRichTextEditorAllowed": true,
+   "starterSentence": {
+      "display": "0",
+      "sentence": ""
+   },
+   "title": "4.11",
+   "type": "Brainstorm",
+   "useServer": true
+}

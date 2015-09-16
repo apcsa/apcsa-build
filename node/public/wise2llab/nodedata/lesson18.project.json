@@ -1,0 +1,196 @@
+{
+   "autoStep": true,
+   "nodes": [
+      {
+         "class": "intro",
+         "identifier": "intro0",
+         "previousWorkNodeIds": [],
+         "ref": "intro0.ht",
+         "title": "A case study",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "intro1",
+         "previousWorkNodeIds": [],
+         "ref": "intro1.ht",
+         "title": "Adventure games",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "intro2",
+         "previousWorkNodeIds": [],
+         "ref": "intro2.ht",
+         "title": "Classes in the program",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "intro3",
+         "previousWorkNodeIds": [],
+         "ref": "intro3.ht",
+         "title": "Look at the code",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "multiplechoice",
+         "identifier": "intro4",
+         "previousWorkNodeIds": [],
+         "ref": "intro4.mc",
+         "title": "Processing commands",
+         "type": "MultipleChoiceNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "room0",
+         "previousWorkNodeIds": [],
+         "ref": "room0.ht",
+         "title": "Examining Room",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "room1",
+         "previousWorkNodeIds": [],
+         "ref": "room1.ht",
+         "title": "So many methods...",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "multiplechoice",
+         "identifier": "room2",
+         "previousWorkNodeIds": [],
+         "ref": "room2.mc",
+         "title": "What comes next",
+         "type": "MultipleChoiceNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "room3",
+         "previousWorkNodeIds": [],
+         "ref": "room3.ht",
+         "title": "Basic rooms",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "room4",
+         "previousWorkNodeIds": [],
+         "ref": "room4.ht",
+         "title": "Ending the game",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "room5",
+         "previousWorkNodeIds": [],
+         "ref": "room5.ht",
+         "title": "Some tips",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "qadiscuss",
+         "identifier": "room6",
+         "previousWorkNodeIds": [],
+         "ref": "room6.bs",
+         "title": "Password protection",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "room7",
+         "previousWorkNodeIds": [],
+         "ref": "room7.ht",
+         "title": "Write it",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "items0",
+         "previousWorkNodeIds": [],
+         "ref": "items.ht",
+         "title": "Mars needs items",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "doit0",
+         "previousWorkNodeIds": [],
+         "ref": "doit0.ht",
+         "title": "Your turn",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "doit1",
+         "previousWorkNodeIds": [],
+         "ref": "doit1.ht",
+         "title": "Some ideas",
+         "type": "HtmlNode"
+      }
+   ],
+   "sequences": [
+      {
+         "identifier": "master",
+         "refs": [
+            "seq_0",
+            "seq_1",
+            "seq_3"
+         ],
+         "title": "master",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_0",
+         "refs": [
+            "intro0",
+            "intro1",
+            "intro2",
+            "intro3",
+            "intro4"
+         ],
+         "title": "Introduction",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_1",
+         "refs": [
+            "room0",
+            "room1",
+            "room2",
+            "room3",
+            "room4",
+            "room5",
+            "room6",
+            "room7"
+         ],
+         "title": "Making special rooms",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_2",
+         "refs": ["items0"],
+         "title": "Items",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_3",
+         "refs": [
+            "doit0",
+            "doit1"
+         ],
+         "title": "Now you do it!",
+         "type": "sequence",
+         "view": ""
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "S",
+   "title": "Unit 5, Lesson 18"
+}

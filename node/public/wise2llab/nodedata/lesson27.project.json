@@ -1,0 +1,175 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"S",
+   "title":"/lesson27",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"merge0",
+         "title":"Merge sort(1)",
+         "ref":"merge0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge0a",
+         "title":"Merge sort(2)",
+         "ref":"merge0a.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"merge1",
+         "title":"MergeSort analysis",
+         "ref":"merge1.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge2",
+         "title":"Merging two sorted arrays",
+         "ref":"merge2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge3",
+         "title":"A fast merge algorithm",
+         "ref":"merge3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge4",
+         "title":"A trace of the algorithm",
+         "ref":"merge4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge5",
+         "title":"The main loop",
+         "ref":"merge5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge6",
+         "title":"When source1 or source2 runs out ...",
+         "ref":"merge6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"merge7",
+         "title":"Unnecessary tests",
+         "ref":"merge7.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"merge8",
+         "title":"Convincing yourself of merge sort correctness",
+         "ref":"merge8.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge9",
+         "title":"Usefulness of merge sort",
+         "ref":"merge9.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"merge10",
+         "title":"Experiments",
+         "ref":"merge10.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"merge11",
+         "title":"Choice of sorting methods",
+         "ref":"merge11.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"merge12",
+         "title":"Best case for merge sort",
+         "ref":"merge12.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_2",
+            "seq_3"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_2",
+         "title":"Introducing Merge sort",
+         "view":"",
+         "refs":["merge0",
+            "merge0a",
+            "merge1",
+            "merge2",
+            "merge3",
+            "merge4",
+            "merge5",
+            "merge6",
+            "merge7"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_3",
+         "title":"Thinking about Merge sort",
+         "view":"",
+         "refs":["merge8",
+            "merge9",
+            "merge10",
+            "merge11",
+            "merge12"
+         ]
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 8: Lesson 27"
+}

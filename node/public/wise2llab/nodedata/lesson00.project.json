@@ -1,0 +1,197 @@
+{
+   "autoStep": true,
+   "nodes": [
+      {
+         "class": "intro",
+         "identifier": "start",
+         "previousWorkNodeIds": [],
+         "ref": "start.ht",
+         "title": "Start Page",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "movie",
+         "identifier": "video",
+         "previousWorkNodeIds": [],
+         "ref": "introvideo.ht",
+         "title": "Welcome Video",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "reading",
+         "previousWorkNodeIds": [],
+         "ref": "reading.ht",
+         "title": "Reading Pages",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "cartoon",
+         "identifier": "conversations",
+         "previousWorkNodeIds": [],
+         "ref": "conversations.ht",
+         "title": "Programming Conversations",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "navigating",
+         "previousWorkNodeIds": [],
+         "ref": "navigating.ht",
+         "title": "Navigating the course",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "brainstorm",
+         "previousWorkNodeIds": [],
+         "ref": "brainstorm.bs",
+         "title": "Brainstorm Pages",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "matchsequence",
+         "identifier": "match",
+         "previousWorkNodeIds": [],
+         "ref": "match.ms",
+         "title": "Matching Question",
+         "type": "MatchSequenceNode"
+      },
+      {
+         "class": "multiplechoice",
+         "identifier": "multichoice",
+         "previousWorkNodeIds": [],
+         "ref": "multichoice.mc",
+         "title": "Multichoice Question",
+         "type": "MultipleChoiceNode"
+      },
+      {
+         "class": "display",
+         "identifier": "survey1",
+         "previousWorkNodeIds": [],
+         "ref": "survey1.ht",
+         "title": "Survey (part 1 of 5)",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "openresponse",
+         "identifier": "survey2",
+         "previousWorkNodeIds": [],
+         "ref": "survey2.or",
+         "title": "Survey (part 2 of 5)",
+         "type": "OpenResponseNode"
+      },
+      {
+         "class": "openresponse",
+         "identifier": "survey3",
+         "previousWorkNodeIds": [],
+         "ref": "survey3.or",
+         "title": "Survey (part 3 of 5)",
+         "type": "OpenResponseNode"
+      },
+      {
+         "class": "openresponse",
+         "identifier": "survey4",
+         "previousWorkNodeIds": [],
+         "ref": "survey4.or",
+         "title": "Survey (part 4 of 5)",
+         "type": "OpenResponseNode"
+      },
+      {
+         "class": "multiplechoice",
+         "identifier": "survey5",
+         "previousWorkNodeIds": [],
+         "ref": "survey5.mc",
+         "title": "Survey (part 5 of 5)",
+         "type": "MultipleChoiceNode"
+      },
+      {
+         "class": "display",
+         "identifier": "ide",
+         "previousWorkNodeIds": [],
+         "ref": "ide.ht",
+         "title": "The Development Environment",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "remember",
+         "previousWorkNodeIds": [],
+         "ref": "remember.ht",
+         "title": "Don't forget",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "summary",
+         "identifier": "summary",
+         "previousWorkNodeIds": [],
+         "ref": "summary.ht",
+         "title": "All's Well that Ends Well",
+         "type": "HtmlNode"
+      }
+   ],
+   "sequences": [
+      {
+         "identifier": "master",
+         "refs": [
+            "Welcome",
+            "The_course",
+            "Wrap_up"
+         ],
+         "title": "Unit 0 Lesson 0",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "Welcome",
+         "refs": ["start"],
+         "title": "Welcome",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "The_course",
+         "refs": [
+            "video",
+            "reading",
+            "conversations",
+            "navigating",
+            "brainstorm",
+            "match",
+            "multichoice",
+            "survey",
+            "ide"
+         ],
+         "title": "About the Course",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "survey",
+         "refs": [
+            "survey1",
+            "survey2",
+            "survey3",
+            "survey4",
+            "survey5"
+         ],
+         "title": "Survey, 5 pages",
+         "type": "sequence",
+         "view": "glue"
+      },
+      {
+         "identifier": "Wrap_up",
+         "refs": [
+            "remember",
+            "summary"
+         ],
+         "title": "Wrap Up",
+         "type": "sequence",
+         "view": ""
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "Step",
+   "title": "Unit 0: Lesson 0"
+}

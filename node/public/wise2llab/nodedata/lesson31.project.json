@@ -1,0 +1,172 @@
+{
+   "autoStep": true,
+   "nodes": [
+      {
+         "class": "intro",
+         "identifier": "intro_0",
+         "previousWorkNodeIds": [],
+         "ref": "intro_0.ht",
+         "title": "Congratulations",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "intro_0a",
+         "previousWorkNodeIds": [],
+         "ref": "intro_0a.ht",
+         "title": "And now...",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "intro_1",
+         "previousWorkNodeIds": [],
+         "ref": "intro_1.ht",
+         "title": "The projects",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "homework",
+         "identifier": "intro_2",
+         "previousWorkNodeIds": [],
+         "ref": "intro_2.ht",
+         "title": "Project writeup",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "adv_1",
+         "previousWorkNodeIds": [],
+         "ref": "adv_1.ht",
+         "title": "Introduction",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "adv_2",
+         "previousWorkNodeIds": [],
+         "ref": "adv_2.ht",
+         "title": "Requirements",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "adv_load",
+         "previousWorkNodeIds": [],
+         "ref": "adv_load.ht",
+         "title": "Load the project",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "c4_1",
+         "previousWorkNodeIds": [],
+         "ref": "c4_1.ht",
+         "title": "Introduction",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "c4_2",
+         "previousWorkNodeIds": [],
+         "ref": "c4_2.ht",
+         "title": "Requirements",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "c4_load",
+         "previousWorkNodeIds": [],
+         "ref": "c4_load.ht",
+         "title": "Load the Connect Four project",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "acesup_1",
+         "previousWorkNodeIds": [],
+         "ref": "acesup_1.ht",
+         "title": "Introduction",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "acesup_2",
+         "previousWorkNodeIds": [],
+         "ref": "acesup_2.ht",
+         "title": "Requirements",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "acesup_load",
+         "previousWorkNodeIds": [],
+         "ref": "acesup_load.ht",
+         "title": "Load the Aces Up project",
+         "type": "HtmlNode"
+      }
+   ],
+   "sequences": [
+      {
+         "identifier": "master",
+         "refs": [
+            "intro",
+            "seq_0",
+            "seq_1",
+            "seq_2"
+         ],
+         "title": "master",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "intro",
+         "refs": [
+            "intro_0",
+            "intro_0a",
+            "intro_1",
+            "intro_2"
+         ],
+         "title": "Introduction",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_0",
+         "refs": [
+            "adv_1",
+            "adv_2",
+            "adv_load"
+         ],
+         "title": "Adventure",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_1",
+         "refs": [
+            "c4_1",
+            "c4_2",
+            "c4_load"
+         ],
+         "title": "Connect 4",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_2",
+         "refs": [
+            "acesup_1",
+            "acesup_2",
+            "acesup_load"
+         ],
+         "title": "Aces Up",
+         "type": "sequence",
+         "view": ""
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 10: Lesson 31++"
+}

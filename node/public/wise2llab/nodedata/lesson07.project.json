@@ -1,0 +1,453 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 3: Lesson 7",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"node_0.html",
+         "title":"Introduction",
+         "ref":"node_0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_1.html",
+         "title":"A greeting program",
+         "ref":"node_1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_2.html",
+         "title":"Importing prewritten classes",
+         "ref":"node_2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_2b.html",
+         "title":"Importing JPanel and JFrame classes",
+         "ref":"node_2b.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_2c.html",
+         "title":"Using the extends keyword",
+         "ref":"node_2c.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_3.mc",
+         "title":"Importing vs. extending old",
+         "ref":"node_3.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_4.html",
+         "title":"Greetings constructor",
+         "ref":"node_4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_4b.html",
+         "title":"The paintComponent method",
+         "ref":"node_4b.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_4c.html",
+         "title":"Writing paintComponent",
+         "ref":"node_4c.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_5.html",
+         "title":"The drawing region",
+         "ref":"node_5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_6.bs",
+         "title":"Pixels per inch?",
+         "ref":"node_6.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_7.html",
+         "title":"Callbacks",
+         "ref":"node_7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_8.bs",
+         "title":"Callback examples?",
+         "ref":"node_8.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_9.bluej",
+         "title":"Experiments",
+         "ref":"node_9.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_11.html",
+         "title":"Other graphics methods",
+         "ref":"node_11.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_12.html",
+         "title":"What drawRect does",
+         "ref":"node_12.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_13.mc",
+         "title":"Outlining the greeting (1)",
+         "ref":"node_13.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_14.mc",
+         "title":"Outlining the greeting (2)",
+         "ref":"node_14.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_15.html",
+         "title":"Outlining the greeting (3)",
+         "ref":"node_15.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_16.html",
+         "title":"Adjacent rectangles",
+         "ref":"node_16.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_17.mc",
+         "title":"Predict the output",
+         "ref":"node_17.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_20.html",
+         "title":"Rectangle = four lines",
+         "ref":"node_20.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_22.html",
+         "title":"An alternate drawRect",
+         "ref":"node_22.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_23.html",
+         "title":"Handling windows of different sizes",
+         "ref":"node_23.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_24.html",
+         "title":"A 'safe' drawRect",
+         "ref":"node_24.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_25.html",
+         "title":"drawOval, fillRect, and fillOval",
+         "ref":"node_25.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_26.mc",
+         "title":"Overlapping rectangles",
+         "ref":"node_26.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_29.mc",
+         "title":"Drawing a bull's eye",
+         "ref":"node_29.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_30.html",
+         "title":"Big letters",
+         "ref":"node_30.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_31.html",
+         "title":"The Olympic rings",
+         "ref":"node_31.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_32.html",
+         "title":"A drawing 'turtle'",
+         "ref":"node_32.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_33.html",
+         "title":"Creating art",
+         "ref":"node_33.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_27.html",
+         "title":"The gameBoard class, revisited",
+         "ref":"node_27.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_28.html",
+         "title":"The face of the virtual pet",
+         "ref":"node_28.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_35.ht",
+         "title":"What we've done",
+         "ref":"node_35.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_36.mc",
+         "title":"Omitting import?",
+         "ref":"node_36.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_34.bs",
+         "title":"Declaration of width?",
+         "ref":"node_34.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_10.mc",
+         "title":"drawString coordinates",
+         "ref":"node_10.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_21.html",
+         "title":"Multiple windows",
+         "ref":"node_21.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_37.ht",
+         "title":"When paintComponent is called",
+         "ref":"node_37.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"Java graphics",
+         "view":"",
+         "refs":["seq_0",
+            "seq_1",
+            "seq_2",
+            "seq_3"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"Greetings in Java",
+         "view":"",
+         "refs":["node_0.html",
+            "node_1.html",
+            "node_9.bluej",
+            "node_2.html",
+            "node_2b.html",
+            "node_2c.html",
+            "node_36.mc",
+            "node_4.html",
+            "node_4b.html",
+            "node_4c.html",
+            "node_7.html",
+            "node_8.bs",
+            "node_5.html",
+            "node_6.bs"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Experimenting with drawRect",
+         "view":"",
+         "refs":["node_11.html",
+            "node_12.html",
+            "node_10.mc",
+            "node_13.mc",
+            "node_14.mc",
+            "node_15.html",
+            "node_37.ht",
+            "node_16.html",
+            "node_17.mc",
+            "node_21.html",
+            "node_20.html",
+            "node_22.html",
+            "node_23.html",
+            "node_34.bs",
+            "node_24.html"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_2",
+         "title":"More experiments",
+         "view":"",
+         "refs":["node_25.html",
+            "node_26.mc",
+            "node_29.mc"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_3",
+         "title":"Programming exercises",
+         "view":"",
+         "refs":["node_30.html",
+            "node_31.html",
+            "node_32.html",
+            "node_33.html",
+            "seq_4"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_4",
+         "title":"Review",
+         "view":"normal",
+         "refs":["node_35.ht"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

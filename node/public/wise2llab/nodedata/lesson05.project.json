@@ -1,0 +1,609 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 2: Lesson 5",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"cond34-booleans.html",
+         "title":"Speaking versus programming",
+         "ref":"cond34-booleans.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond34a-booleans.html",
+         "title":"Combining Boolean Expressions",
+         "ref":"cond34a-booleans.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_0.bs",
+         "title":"Analyzing temperature classification code",
+         "ref":"node_0.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond38-selftest",
+         "title":"Classifying by Age",
+         "ref":"cond38-selftest.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond40-boolalternatives",
+         "title":"Boolean Alternatives",
+         "ref":"cond40-boolalternatives.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond43-notoperator",
+         "title":"The Not Operator",
+         "ref":"cond43-notoperator.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond44-testingbools",
+         "title":"Testing Booleans",
+         "ref":"cond44-testingbools.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond45-moreonboundary",
+         "title":"More on Boundary Cases",
+         "ref":"cond45-moreonboundary.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"cartoon"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond47-booleanvars",
+         "title":"Boolean Variables and Methods",
+         "ref":"cond47-booleanvars.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_5.html",
+         "title":"Boolean method example : Gradebook",
+         "ref":"node_5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_5a.html",
+         "title":"Boolean method example : CheckerBoard",
+         "ref":"node_5a.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_6.html",
+         "title":"Abstraction with boolean methods",
+         "ref":"node_6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond48-cardclassintro",
+         "title":"A Card class",
+         "ref":"cond48-cardclassintro.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_7.bluej",
+         "title":"Code for the Card Class",
+         "ref":"node_7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_8.html",
+         "title":"What is 'this'?",
+         "ref":"node_8.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"cond49.bs",
+         "title":"Testing a Card Class",
+         "ref":"cond49.bs.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond50-comparisonintro",
+         "title":"Modifying the Name class",
+         "ref":"cond50-comparisonintro.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond51-typesofcomparing.html",
+         "title":"Types of Comparisons",
+         "ref":"cond51-typesofcomparing.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond54-compexperiment",
+         "title":"Comparison Experiments",
+         "ref":"cond54-compexperiment.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond55-emptystring",
+         "title":"The Empty String",
+         "ref":"cond55-emptystring.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond57-moreonName",
+         "title":"Revisiting the Name class",
+         "ref":"cond57-moreonName.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond58-nameconstructors",
+         "title":"Adding Name Constructors",
+         "ref":"cond58-nameconstructors.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond59-newnamemethods",
+         "title":"The fullName method",
+         "ref":"cond59-newnamemethods.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_4.bs",
+         "title":"fullName analysis",
+         "ref":"node_4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond60-namebugs",
+         "title":"Detecting Bugs in Name",
+         "ref":"cond60-namebugs.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"null"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond61-programmingamethod",
+         "title":"Programming a Method",
+         "ref":"cond61-programmingamethod.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_1.bs",
+         "title":"String comparison (1)",
+         "ref":"node_1.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_3.bs",
+         "title":"String comparison (2)",
+         "ref":"node_3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"node_12.or",
+         "title":"Unit 2 Quiz (a)",
+         "ref":"node_12.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"openresponse"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"node_13.or",
+         "title":"Unit 2 Quiz (b)",
+         "ref":"node_13.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"openresponse"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"node_14.or",
+         "title":"Unit 2 Quiz (c)",
+         "ref":"node_14.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"openresponse"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"node_15.or",
+         "title":"Unit 2 Quiz (d)",
+         "ref":"node_15.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"openresponse"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"node_16.or",
+         "title":"Unit 2 Quiz (e)",
+         "ref":"node_16.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"openresponse"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_19.mc",
+         "title":"Working with boolean operations (1)",
+         "ref":"node_19.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_20.mc",
+         "title":"Working with boolean operations (2)",
+         "ref":"node_20.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_21.ht",
+         "title":"Working with boolean operations (3)",
+         "ref":"node_21.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_22.ht",
+         "title":"Working with boolean operations (4)",
+         "ref":"node_22.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_23.ht",
+         "title":"Truth tables",
+         "ref":"node_23.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_26.ht",
+         "title":"Checking for increasing arguments",
+         "ref":"node_26.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_27.ht",
+         "title":"Checking for same sign",
+         "ref":"node_27.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_28.bs",
+         "title":"A mystery method",
+         "ref":"node_28.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_29.ht",
+         "title":"Removing uses of true and false",
+         "ref":"node_29.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_9.html",
+         "title":"Adding an outranks method",
+         "ref":"node_9.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond34b-shortcircuit.html",
+         "title":"Boolean Expressions and short-circuiting",
+         "ref":"cond34b-booleans.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_24.ht",
+         "title":"Code to analyze",
+         "ref":"node_24.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_30.mc",
+         "title":"Comparison counting (1)",
+         "ref":"node_30.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_31.bs",
+         "title":"Comparison counting (2)",
+         "ref":"node_31.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_32.bs",
+         "title":"Comparison counting (3)",
+         "ref":"node_32.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_33.ht",
+         "title":"Comparison counting (4)",
+         "ref":"node_33.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"tempprocessing.bs",
+         "title":"Comparing Temperature Processing",
+         "ref":"tempprocessing.bs.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"cond36.bs",
+         "title":"Comparing Ways to Categorize a Day",
+         "ref":"cond36.bs.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_34.ht",
+         "title":"What we've done",
+         "ref":"node_34.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_35.ht",
+         "title":"Exercises",
+         "ref":"node_35.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_36.ht",
+         "title":"Relation of &amp;quot;and&amp;quot;, &amp;quot;or&amp;quot;, and &amp;quot;not&amp;quot;",
+         "ref":"node_36.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master sequence",
+         "view":"",
+         "refs":["BooleanExpressions",
+            "BooleanVariablesAndMethods",
+            "TestingBooleanExpressions",
+            "ComparingUsing",
+            "RevisitingTheNameClass",
+            "PlayingCards",
+            "seq_1"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"BooleanExpressions",
+         "title":"Boolean Expressions",
+         "view":"",
+         "refs":["cond34-booleans.html",
+            "cond34a-booleans.html",
+            "node_19.mc",
+            "node_20.mc",
+            "node_21.ht",
+            "node_22.ht",
+            "tempprocessing.bs",
+            "cond36.bs",
+            "node_23.ht",
+            "node_0.bs",
+            "cond38-selftest",
+            "cond40-boolalternatives",
+            "cond34b-shortcircuit.html",
+            "node_24.ht",
+            "node_30.mc",
+            "node_31.bs",
+            "node_32.bs",
+            "node_33.ht",
+            "cond43-notoperator",
+            "node_36.ht"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"BooleanVariablesAndMethods",
+         "title":"Boolean variables and methods",
+         "view":"",
+         "refs":["cond47-booleanvars",
+            "node_5.html",
+            "node_5a.html",
+            "node_6.html",
+            "node_26.ht",
+            "node_27.ht",
+            "node_28.bs",
+            "node_29.ht"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"TestingBooleanExpressions",
+         "title":"Testing Boolean Expressions",
+         "view":"",
+         "refs":["cond44-testingbools",
+            "cond45-moreonboundary"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"ComparingUsing",
+         "title":"Comparing using ==",
+         "view":"",
+         "refs":["cond50-comparisonintro",
+            "cond51-typesofcomparing.html",
+            "node_1.bs",
+            "node_3.bs",
+            "cond54-compexperiment",
+            "cond55-emptystring"
+         ]
+      },
+
+      {
+         "type":"sequence",
+         "identifier":"RevisitingTheNameClass",
+         "title":"Revisiting the Name Class",
+         "view":"",
+         "refs":["cond57-moreonName",
+            "cond58-nameconstructors",
+            "cond59-newnamemethods",
+            "node_4.bs",
+            "cond61-programmingamethod"
+         ]
+      },
+     {
+         "type":"sequence",
+         "identifier":"PlayingCards",
+         "title":"Playing cards",
+         "view":"",
+         "refs":["cond48-cardclassintro",
+            "node_7.bluej",
+            "node_8.html",
+            "cond49.bs",
+            "node_9.html"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Review",
+         "view":"normal",
+         "refs":["node_34.ht",
+          "node_35.ht"
+         ]
+      }
+
+
+   ],
+   "startPoint":"master"
+}

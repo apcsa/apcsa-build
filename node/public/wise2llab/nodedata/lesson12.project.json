@@ -1,0 +1,477 @@
+{
+   "autoStep": true,
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 4: Lesson 12",
+   "constraints": [],
+   "nodes": [
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_0.html",
+         "title": "Ordered collections",
+         "ref": "arraylists_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_1.html",
+         "title": "Declaring an ArrayList",
+         "ref": "arraylists_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_2.html",
+         "title": "Some ArrayList methods",
+         "ref": "arraylists_2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_3.html",
+         "title": "Program to save mouse clicks",
+         "ref": "arraylists_3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_5.html",
+         "title": "ArrayList processing patterns",
+         "ref": "arraylists_5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_6.html",
+         "title": "Modification of the program",
+         "ref": "arraylists_6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_7.bluej",
+         "title": "Printing corners of the loop",
+         "ref": "arraylists_7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_6.bluej",
+         "title": "Modification of the program",
+         "ref": "arraylists_6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "arraylists_7.html",
+         "title": "Printing the corners of the loop",
+         "ref": "arraylists_7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "cards_0.html",
+         "title": "Poker",
+         "ref": "cards_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "cards_1.html",
+         "title": "All the same suit: Two possible methods ",
+         "ref": "cards_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "cards_2.bluej",
+         "title": "All the same suit: Process Neighbors",
+         "ref": "cards_2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "cards_3.bluej",
+         "title": "All the same suit: Process every element",
+         "ref": "cards_3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "cards_4.bluej",
+         "title": "Finding the most-occurring rank",
+         "ref": "cards_4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "cards_7.bluej",
+         "title": "Insertion into a hand",
+         "ref": "cards_7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "collections_0.html",
+         "title": "Collections",
+         "ref": "collections_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "for_0.html",
+         "title": "The for loop",
+         "ref": "for_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "for_1.html",
+         "title": "Equivalent loops",
+         "ref": "for_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "for_2b.html",
+         "title": "A for variation",
+         "ref": "for_2b.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "for_5.html",
+         "title": "while vs. for loops (brainstorm)",
+         "ref": "for_5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "for_6.html",
+         "title": "Shortcuts to incrementing and decrementing",
+         "ref": "for_6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "node_0.bs",
+         "title": "while vs for loops",
+         "ref": "node_0.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "for_3.bluej",
+         "title": "Translating While Loops into For Loops",
+         "ref": "for_3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "for_4.bluej",
+         "title": "Translating While Loops into For Loops (2)",
+         "ref": "for_4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_1.ht",
+         "title": "An ArrayList of names",
+         "ref": "node_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "node_2.bs",
+         "title": "Type mismatch?",
+         "ref": "node_2.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_5.ht",
+         "title": "ArrayList methods (2)",
+         "ref": "node_5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_6.ht",
+         "title": "ArrayList methods (3)",
+         "ref": "node_6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_7.ht",
+         "title": "Checking for clicks seen before",
+         "ref": "node_7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_9.ht",
+         "title": "Classifying a poker hand",
+         "ref": "node_9.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_10.ht",
+         "title": "Representing a collection",
+         "ref": "node_10.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "summary"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_11.ht",
+         "title": "Maintaining a 'top ten' list",
+         "ref": "node_11.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_14.ht",
+         "title": "ArrayLists",
+         "ref": "node_14.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "summary"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_15.ht",
+         "title": "Loops and processing patterns",
+         "ref": "node_15.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "summary"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_16.mc",
+         "title": "Practice with ArrayList Methods (1)",
+         "ref": "node_16.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "OpenResponseNode",
+         "identifier": "node_17.or",
+         "title": "abc",
+         "ref": "node_17.or",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "openresponse"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_17.mc",
+         "title": "Practice with ArrayList Methods (2)",
+         "ref": "node_17.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_18.mc",
+         "title": "Practice with ArrayList Methods (3)",
+         "ref": "node_18.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+     {
+         "type": "HtmlNode",
+         "identifier": "dot_racing.ht",
+         "title": "Racing with many dots...",
+         "ref": "dot_racing.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+           {
+         "type": "HtmlNode",
+         "identifier": "exercise_2.ht",
+         "title": "Dot Racing revisited",
+         "ref": "exercise_2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+           {
+         "type": "HtmlNode",
+         "identifier": "exercise_4.ht",
+         "title": "XEyes with ArrayLists",
+         "ref": "exercise_4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      }
+   ],
+   "sequences": [
+      {
+         "type": "sequence",
+         "identifier": "master",
+         "title": "master",
+         "view": "",
+         "refs": [
+            "intro",
+            "seq_0",
+            "seq_1",
+            "seq_2",
+            "seq_3",
+            "seq_4"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "intro",
+         "title": "Introduction",
+         "view": "",
+         "refs": [
+            "collections_0.html"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_0",
+         "title": "ArrayLists",
+         "view": "",
+         "refs": [
+            "arraylists_0.html",
+            "arraylists_1.html",
+            "arraylists_2.html",
+            "node_5.ht",
+            "node_6.ht",
+            "node_16.mc",
+            "node_17.mc",
+            "node_18.mc",
+            "node_1.ht",
+            "node_2.bs",
+            "dot_racing.ht",
+            "arraylists_3.html",
+            "node_7.ht",
+            "arraylists_5.html"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_1",
+         "title": "The for structure",
+         "view": "",
+         "refs": [
+            "for_0.html",
+            "for_1.html",
+            "for_2b.html",
+            "for_3.bluej",
+            "node_0.bs",
+            "for_6.html"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_2",
+         "title": "Card games",
+         "view": "",
+         "refs": [
+            "cards_0.html",
+            "cards_1.html",
+            "cards_2.bluej",
+            "cards_3.bluej",
+            "cards_4.bluej",
+            "cards_7.bluej"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_3",
+         "title": "Review",
+         "view": "normal",
+         "refs": [
+            "node_10.ht",
+            "node_14.ht",
+            "node_15.ht"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_4",
+         "title": "Exercises",
+         "view": "normal",
+         "refs": [
+            "exercise_2.ht",
+            "node_9.ht",
+            "node_11.ht",
+            "exercise_4.ht"
+         ]
+      }
+   ],
+   "startPoint": "master"
+}

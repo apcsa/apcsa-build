@@ -1,0 +1,27 @@
+
+<div class="assessment-data" type="{{tolower:type}}"
+    identifier="{{:identifier}}"
+    hasinlinefeedback="{{:assessmentItem.interaction.hasInlineFeedback}}"
+    maxchoices="{{:assessmentItem.interaction.maxChoices}}"
+    responseIdentifier="{{:assessmentItem.interaction.responseIdentifier}}"
+    shuffle="{{:assessmentItem.interaction.shuffle}}">
+
+    <div class="prompt">{{clean:assessmentItem.interaction.prompt}}
+    </div>
+
+    {{for assessmentItem.interaction.choices}}
+    <div class="choice" identifier="{{:indentifier}}">
+        <div class="text">{{clean:text}}
+        </div>
+        <div class="feedback">{{clean:feedback}}
+        </div>
+    </div>
+    {{/for}}
+
+    <div class="responseDeclaration"
+        identifier="{{:assessmentItem.responseDeclaration.identifier}}">
+        {{for assessmentItem.responseDeclaration.correctResponse}}
+        <div class="correctResponse" identifier="{{:#data}}"></div>
+        {{/for}}
+    </div>
+</div>

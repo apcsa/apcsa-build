@@ -1,0 +1,55 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 4: Lesson 15",
+   "constraints":[],
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"leadin.html",
+         "title":"Time for a project",
+         "ref":"leadin.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_0.html",
+         "title":"Elevens, the card game",
+         "ref":"node_0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_1.html",
+         "title":"Your task",
+         "ref":"node_1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_0"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"Elevens, the project",
+         "view":"",
+         "refs":["leadin.html",
+            "node_0.html",
+            "node_1.html"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

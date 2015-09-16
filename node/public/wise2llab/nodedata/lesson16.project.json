@@ -1,0 +1,513 @@
+{
+   "autoStep": true,
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 5, Lesson16",
+   "constraints": [],
+   "nodes": [
+      {
+         "type": "HtmlNode",
+         "identifier": "welcome0",
+         "title": "Welcome back",
+         "ref": "welcome0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "welcome1",
+         "title": "Looking ahead",
+         "ref": "welcome1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "welcome2",
+         "title": "Mid Survey (part 1 of 5)",
+         "ref": "welcome2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "display"
+      },
+      {
+         "type": "OpenResponseNode",
+         "identifier": "welcome2a",
+         "title": "Mid Survey (part 2 of 5)",
+         "ref": "welcome2a.or",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "openresponse"
+      },
+      {
+         "type": "OpenResponseNode",
+         "identifier": "welcome2b",
+         "title": "Mid Survey (part 3 of 5)",
+         "ref": "welcome2b.or",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "openresponse"
+      },
+      {
+         "type": "OpenResponseNode",
+         "identifier": "welcome2c",
+         "title": "Mid Survey (part 4 of 5)",
+         "ref": "welcome2c.or",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "openresponse"
+      },
+      {
+         "type": "OpenResponseNode",
+         "identifier": "welcome2d",
+         "title": "Mid Survey (part 5 of 5)",
+         "ref": "welcome2d.or",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "openresponse"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "intro0",
+         "title": "Introduction to inheritance",
+         "ref": "intro0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "refillable0",
+         "title": "The Refillable class, revisited",
+         "ref": "refillable0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "refillable1",
+         "title": "Extending the Refillable class",
+         "ref": "refillable1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "refillable2",
+         "title": "Overriding methods",
+         "ref": "refillable2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "refillable3a",
+         "title": "Inheritance saves work",
+         "ref": "refillable3a.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "refillable4",
+         "title": "Access to instance variables",
+         "ref": "refillable4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "refillable5",
+         "title": "Thoughts on access",
+         "ref": "refillable5.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "refillable6",
+         "title": "Class design",
+         "ref": "refillable6.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "general0",
+         "title": "Inheritance elsewhere in Java",
+         "ref": "general0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "general1",
+         "title": "Real-life inheritance hierarchies",
+         "ref": "general1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "general2",
+         "title": "More real-life inheritance hierarchies",
+         "ref": "general2.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "general3",
+         "title": "Possible confusion",
+         "ref": "general3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "general4",
+         "title": "Non-hierarchies",
+         "ref": "general4.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "general5",
+         "title": "Places where we might use inheritance",
+         "ref": "general5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercises0",
+         "title": "Counters",
+         "ref": "exercises0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "exercises0b",
+         "title": "Not reinventing the wheel",
+         "ref": "exercises0b.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercises1",
+         "title": "Using inheritance to trace assignments to objects",
+         "ref": "exercises1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "exercises1b",
+         "title": "Not reinventing the wheel, again",
+         "ref": "exercises1b.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercises2",
+         "title": "The prisoner's dilemma",
+         "ref": "exercises2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercises3",
+         "title": "A player that always competes",
+         "ref": "exercises3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercises4",
+         "title": "A random player",
+         "ref": "exercises4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercises5",
+         "title": "An unforgiving player",
+         "ref": "exercises5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercises6",
+         "title": "A tit-for-tat player",
+         "ref": "exercises6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism0",
+         "title": "Polymorphism(1)",
+         "ref": "polymorphism0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism0b",
+         "title": "Polymorphism(2)",
+         "ref": "polymorphism0b.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "polymorphism1",
+         "title": "A proposed variation",
+         "ref": "polymorphism1.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism2",
+         "title": "toString",
+         "ref": "polymorphism2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism3",
+         "title": "toString experiments",
+         "ref": "polymorphism3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism4",
+         "title": "Polymorphic data structures",
+         "ref": "polymorphism4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism5",
+         "title": "A problem",
+         "ref": "polymorphism5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "polymorphism6",
+         "title": "A proposed solution",
+         "ref": "polymorphism6.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism7",
+         "title": "Polymorphic method selection",
+         "ref": "polymorphism7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism8",
+         "title": "What the compiler does",
+         "ref": "polymorphism8.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism9",
+         "title": "Accommodating the compiler",
+         "ref": "polymorphism9.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "polymorphism10",
+         "title": "What happens at run time",
+         "ref": "polymorphism10.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "MatchSequenceNode",
+         "identifier": "node_0.ms",
+         "title": "Polymorphism puzzles",
+         "ref": "node_0.ms",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "matchsequence"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "refillable3",
+         "title": "Extending library classes",
+         "ref": "refillable3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      }
+   ],
+   "sequences": [
+      {
+         "type": "sequence",
+         "identifier": "master",
+         "title": "master",
+         "view": "",
+         "refs": [
+            "seq_lt0",
+            "seq_surv",
+            "seq_0",
+            "seq_1",
+            "seq_2",
+            "seq_3"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_lt0",
+         "title": "Welcome",
+         "view": "",
+         "refs": [
+            "welcome0",
+            "welcome1"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_surv",
+         "title": "Survey, 5 pages",
+         "view": "",
+         "refs": [
+            "welcome2",
+            "welcome2a",
+            "welcome2b",
+            "welcome2c",
+            "welcome2d"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_0",
+         "title": "Inheritance in specifics",
+         "view": "",
+         "refs": [
+            "intro0",
+            "refillable0",
+            "refillable1",
+            "refillable2",
+            "refillable3a",
+            "refillable3",
+            "refillable4",
+            "refillable5",
+            "refillable6"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_1",
+         "title": "Inheritance in general",
+         "view": "",
+         "refs": [
+            "general0",
+            "general1",
+            "general2",
+            "general3",
+            "general5"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_2",
+         "title": "Practicing Inheritance",
+         "view": "",
+         "refs": [
+            "exercises0",
+            "exercises0b",
+            "exercises1",
+            "exercises1b",
+            "exercises2",
+            "exercises3",
+            "exercises4",
+            "exercises5",
+            "exercises6"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_3",
+         "title": "Polymorphism",
+         "view": "",
+         "refs": [
+            "polymorphism0",
+            "polymorphism0b",
+            "polymorphism1",
+            "polymorphism2",
+            "polymorphism3",
+            "polymorphism4",
+            "polymorphism5",
+            "polymorphism6",
+            "polymorphism7",
+            "polymorphism8",
+            "polymorphism9",
+            "polymorphism10",
+            "node_0.ms"
+         ]
+      }
+   ],
+   "startPoint": "master"
+}

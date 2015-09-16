@@ -1,0 +1,377 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 5: Lesson 17",
+   "constraints":[],
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"abstract_class4",
+         "title":"An application",
+         "ref":"abstract_class4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"play0",
+         "title":"Playing more with inheritance",
+         "ref":"play0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MatchSequenceNode",
+         "identifier":"node_0.ms",
+         "title":"Output prediction",
+         "ref":"node_0.ms",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"matchsequence"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"play5",
+         "title":"Hardest thing about inheritance?",
+         "ref":"play5.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"callbacks0",
+         "title":"Callbacks, revisited",
+         "ref":"callbacks0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"callbacks1",
+         "title":"The Measurement class",
+         "ref":"callbacks1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"callbacks2",
+         "title":"Determining what's wrong",
+         "ref":"callbacks2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"callbacks3",
+         "title":"A simpler equals method",
+         "ref":"callbacks3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"callbacks4",
+         "title":"Another equals method",
+         "ref":"callbacks4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"callbacks5",
+         "title":"The final equals method",
+         "ref":"callbacks5.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"callbacks6",
+         "title":"How polymorphism fits in",
+         "ref":"callbacks6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"callbacks7",
+         "title":"If we don't override these methods ...",
+         "ref":"callbacks7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class0",
+         "title":"Prisoners' Dilemma player inheritance reorganization",
+         "ref":"abstract_class0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class1",
+         "title":"Abstract classes and methods",
+         "ref":"abstract_class1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"abstract_class2",
+         "title":"Abstract remember method?",
+         "ref":"abstract_class2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class3",
+         "title":"More on abstract classes(1)",
+         "ref":"abstract_class3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class3a",
+         "title":"More on abstract classes(2)",
+         "ref":"abstract_class3a.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class5",
+         "title":"Interfaces",
+         "ref":"abstract_class5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class6",
+         "title":"More motivation(1)",
+         "ref":"abstract_class6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class6a",
+         "title":"More motivation(2)",
+         "ref":"abstract_class6a.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"abstract_class7",
+         "title":"Sorting an ArrayList",
+         "ref":"abstract_class7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static0",
+         "title":"Static variables and methods",
+         "ref":"static0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"static1",
+         "title":"Meaning of static?",
+         "ref":"static1.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static2",
+         "title":"Static constants",
+         "ref":"static2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static3",
+         "title":"Definition and use of static constants",
+         "ref":"static3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"static4",
+         "title":"A use for a static variable",
+         "ref":"static4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static5",
+         "title":"Another use for the static variable",
+         "ref":"static5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static6",
+         "title":"Static random number generator",
+         "ref":"static6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static7",
+         "title":"Static methods",
+         "ref":"static7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static8",
+         "title":"A special static method",
+         "ref":"static8.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"static9",
+         "title":"When to use static",
+         "ref":"static9.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"static10",
+         "title":"Rewriting equals",
+         "ref":"static10.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"static11",
+         "title":"Uses of static",
+         "ref":"static11.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_0",
+            "seq_1",
+            "seq_2",
+            "seq_3"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"More inheritance puzzles",
+         "view":"",
+         "refs":["play0",
+            "node_0.ms",
+            "play5"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Callbacks",
+         "view":"",
+         "refs":["callbacks0",
+            "callbacks1",
+            "callbacks2",
+            "callbacks3",
+            "callbacks4",
+            "callbacks5",
+            "callbacks6",
+            "callbacks7"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_2",
+         "title":"Abstract classes and methods",
+         "view":"",
+         "refs":["abstract_class0",
+            "abstract_class1",
+            "abstract_class2",
+            "abstract_class3",
+            "abstract_class3a",
+            "abstract_class5",
+            "abstract_class6",
+            "abstract_class6a",
+            "abstract_class7"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_3",
+         "title":"Static",
+         "view":"",
+         "refs":["static0",
+            "static1",
+            "static2",
+            "static3",
+            "static4",
+            "static5",
+            "static6",
+            "static7",
+            "static8",
+            "static9",
+            "static11"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

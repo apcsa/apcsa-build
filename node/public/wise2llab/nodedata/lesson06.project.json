@@ -1,0 +1,270 @@
+{
+   "autoStep": true,
+   "nodes": [
+      {
+         "class": "cartoon",
+         "identifier": "01intro",
+         "previousWorkNodeIds": [],
+         "ref": "01intro.ht",
+         "title": "Objectives",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "fillblank",
+         "identifier": "02review",
+         "previousWorkNodeIds": [],
+         "ref": "02review.fi",
+         "title": "Conditional Review",
+         "type": "FillinNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "03pet",
+         "previousWorkNodeIds": [],
+         "ref": "03pet.ht",
+         "title": "Introduction to the Virtual Pet",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "04open",
+         "previousWorkNodeIds": [],
+         "ref": "04open.ht",
+         "title": "Open BlueJ Project",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "05explore1",
+         "previousWorkNodeIds": [],
+         "ref": "05explore1.ht",
+         "title": "Explore the Code 1",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "06explore2",
+         "previousWorkNodeIds": [],
+         "ref": "06explore2.ht",
+         "title": "Explore the Code 2",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "07explore3",
+         "previousWorkNodeIds": [],
+         "ref": "07explore3.ht",
+         "title": "Explore the Code 3",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "08explore4",
+         "previousWorkNodeIds": [],
+         "ref": "08explore4.ht",
+         "title": "Explore the Code 4",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "instantquiz",
+         "identifier": "09quickfix",
+         "previousWorkNodeIds": [],
+         "ref": "09quickfix.ht",
+         "title": "Make A Quick Fix",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "multiplechoice",
+         "identifier": "10hunger",
+         "previousWorkNodeIds": [],
+         "ref": "10hunger.mc",
+         "title": "How Does Hunger Work?",
+         "type": "MultipleChoiceNode"
+      },
+      {
+         "class": "fillblank",
+         "identifier": "11fill",
+         "previousWorkNodeIds": [],
+         "ref": "11fill.fi",
+         "title": "Fill in the Blank",
+         "type": "FillinNode"
+      },
+      {
+         "class": "instantquiz",
+         "identifier": "12hunger1",
+         "previousWorkNodeIds": [],
+         "ref": "12hunger1.ht",
+         "title": "Making Hunger Realistic 1",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "13hunger2",
+         "previousWorkNodeIds": [],
+         "ref": "13hunger2.ht",
+         "title": "Making Hunger Realistic 2",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "codeit",
+         "identifier": "14hunger3",
+         "previousWorkNodeIds": [],
+         "ref": "14hunger3.ht",
+         "title": "Making Hunger Realistic 3",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "15better",
+         "previousWorkNodeIds": [],
+         "ref": "15better.bs",
+         "title": "Is there a Better Way to Die?",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "instantquiz",
+         "identifier": "16squash",
+         "previousWorkNodeIds": [],
+         "ref": "16squash.ht",
+         "title": "Squash the Bugs",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "17petbrainstorm",
+         "previousWorkNodeIds": [],
+         "ref": "17petbrainstorm.bs",
+         "title": "Virtual Pet Brainstorm",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "summary",
+         "identifier": "manage_1",
+         "previousWorkNodeIds": [],
+         "ref": "manage_1.ht",
+         "title": "So far",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "manage_2",
+         "previousWorkNodeIds": [],
+         "ref": "manage_2.ht",
+         "title": "Managing programs",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "write_1",
+         "previousWorkNodeIds": [],
+         "ref": "write_1.ht",
+         "title": "A 'miniproject'",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "write_2",
+         "previousWorkNodeIds": [],
+         "ref": "write_2.ht",
+         "title": "Images",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "write_3",
+         "previousWorkNodeIds": [],
+         "ref": "write_3.ht",
+         "title": "Ideas for moods",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "write_3b",
+         "previousWorkNodeIds": [],
+         "ref": "write_3b.bs",
+         "title": "Share your ideas",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "cartoon",
+         "identifier": "write_4",
+         "previousWorkNodeIds": [],
+         "ref": "write_4.ht",
+         "title": "Good luck",
+         "type": "HtmlNode"
+      }
+   ],
+   "sequences": [
+      {
+         "identifier": "startsequence",
+         "refs": [
+            "seq1",
+            "seq2",
+            "seq4"
+         ],
+         "title": "Lesson 6",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq1",
+         "refs": [
+            "01intro",
+            "02review",
+            "03pet",
+            "04open",
+            "05explore1",
+            "06explore2",
+            "07explore3",
+            "08explore4"
+         ],
+         "title": "A virtual pet?",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq2",
+         "refs": [
+            "09quickfix",
+            "10hunger",
+            "11fill",
+            "12hunger1",
+            "13hunger2",
+            "14hunger3",
+            "15better",
+            "16squash",
+            "17petbrainstorm"
+         ],
+         "title": "Programming",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq3",
+         "refs": [
+            "manage_1",
+            "manage_2"
+         ],
+         "title": "Managing complication",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq4",
+         "refs": [
+            "write_1",
+            "write_2",
+            "write_3",
+            "write_3b",
+            "write_4"
+         ],
+         "title": "Write your own",
+         "type": "sequence",
+         "view": ""
+      }
+   ],
+   "startPoint": "startsequence",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 2: Lesson 6"
+}

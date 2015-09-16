@@ -1,0 +1,291 @@
+{
+   "autoStep": true,
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 4: Lesson 13",
+   "constraints": [],
+   "nodes": [
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_0",
+         "title": "Introduction",
+         "ref": "intro_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_1",
+         "title": "What is sound?",
+         "ref": "intro_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_2",
+         "title": "Sampling sound",
+         "ref": "intro_2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "intro_4.mc",
+         "title": "What sound is this?",
+         "ref": "intro_4.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_5.bluej",
+         "title": "Sounds in Java",
+         "ref": "intro_5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_6",
+         "title": "Zooming",
+         "ref": "intro_6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_6b",
+         "title": "Zooming(2)",
+         "ref": "intro_6b.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_7",
+         "title": "The Sound class",
+         "ref": "intro_7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "trans_0",
+         "title": "Making a sound louder",
+         "ref": "trans_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "trans_1.bs",
+         "title": "A sound too loud?",
+         "ref": "trans_1.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "qadiscuss"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "trans_2",
+         "title": "Normalizing",
+         "ref": "trans_2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "trans_3",
+         "title": "Reversing",
+         "ref": "trans_3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "trans_4",
+         "title": "Making noise",
+         "ref": "trans_4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "trans_4a.bs",
+         "title": "Argument choice",
+         "ref": "trans_4a.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "trans_4b.bs",
+         "title": "How much is too much?",
+         "ref": "trans_4b.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "qadiscuss"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "trans_4c",
+         "title": "Removing noise?",
+         "ref": "trans_4c.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "cartoon"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercise_0",
+         "title": "Reading musical scores",
+         "ref": "exercise_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "exercise_1",
+         "title": "More complicated scores",
+         "ref": "exercise_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_0.ht",
+         "title": "A sound diagram",
+         "ref": "node_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_1.mc",
+         "title": "Understanding the diagram (1)",
+         "ref": "node_1.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_2.mc",
+         "title": "Understanding the diagram (2)",
+         "ref": "node_2.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_3.mc",
+         "title": "Why Cast?",
+         "ref": "node_3.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_4.ht",
+         "title": "Casting",
+         "ref": "node_4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "cartoon"
+      }
+   ],
+   "sequences": [
+      {
+         "type": "sequence",
+         "identifier": "master",
+         "title": "master",
+         "view": "",
+         "refs": [
+            "seq_0",
+            "seq_1",
+            "seq_4"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_0",
+         "title": "Sampling Sound",
+         "view": "",
+         "refs": [
+            "intro_0",
+            "intro_1",
+            "node_0.ht",
+            "node_1.mc",
+            "node_2.mc",
+            "intro_2",
+            "intro_4.mc",
+            "intro_5.bluej",
+            "intro_6",
+            "intro_6b",
+            "intro_7"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_1",
+         "title": "Sound transformations",
+         "view": "",
+         "refs": [
+            "trans_0",
+            "node_4.ht",
+            "node_3.mc",
+            "trans_1.bs",
+            "trans_2",
+            "trans_3",
+            "trans_4",
+            "trans_4a.bs",
+            "trans_4b.bs",
+            "trans_4c"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_2",
+         "title": "Making sound",
+         "view": "",
+         "refs": []
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_3",
+         "title": "Advanced manipulations",
+         "view": "",
+         "refs": []
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_4",
+         "title": "Exercises",
+         "view": "",
+         "refs": [
+            "exercise_0",
+            "exercise_1"
+         ]
+      }
+   ],
+   "startPoint": "master"
+}

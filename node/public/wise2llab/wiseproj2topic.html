@@ -2,7 +2,27 @@
 
     <head>
         <script type="text/javascript" src="../lib/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="wiseproj2topic.js"></script>
+        <script type="text/javascript" src="../lib/err_stuff.js"></script>
+        <script type="text/javascript" src="../lib/jsrender.js"></script>
+        <script type="text/javascript" src="wise2llab.js"></script>
+        <script type="text/javascript">
+        	function convert() {
+        		var wiseproj = $("#wiseproj").val();
+        		var targetdir = $("#targetdir").val();
+        		var topicstr = Wise2Lab.wiseproj2llabtopic(wiseproj, targetdir);
+        		$("#topic").val(topicstr);
+        	}
+        	
+        	$(document).ready(function(){
+        		// stick a test project json in there
+        		$.get("./testsamples/lesson2.project.json", 
+        				"", 
+        				function(data) {
+        					$("#wiseproj").val(data);
+        				}, 
+        				"html");
+        	});
+        </script>
     </head>
 
     <body>
@@ -17,9 +37,13 @@
             <textarea id="wiseproj" cols="120" rows="10" >
 
           </textarea>
+
             <br>
             <br>
-            <button onclick="doConvert()">
+            <div>
+            Target directory (where all the references to pages point), include trailing slash<br>
+                      <input id="targetdir" type="text" size="80" value="/apcsa/r/cur/c1/"></div>
+            <button onclick="convert();">
                 Convert
             </button>
         </div>

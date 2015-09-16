@@ -1,0 +1,141 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"S",
+   "title":"/lesson23",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"exercises0",
+         "title":"Game board perspective",
+         "ref":"exercises0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"exercises1",
+         "title":"Tic-Tac-Toe",
+         "ref":"exercises1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"exercises2",
+         "title":"Squiral",
+         "ref":"exercises2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"exercises3",
+         "title":"Array rotation",
+         "ref":"exercises3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro0",
+         "title":"Two-dimensional arrays",
+         "ref":"intro0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro1",
+         "title":"Declaring and initializing a two-dimensional array",
+         "ref":"intro1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro2",
+         "title":"A pattern for two-dimensional array processing",
+         "ref":"intro2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "class": "intro",
+         "identifier": "intro3",
+         "previousWorkNodeIds": [],
+         "ref": "intro3.ht",
+         "title": "The main diagonal",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "intro4",
+         "previousWorkNodeIds": [],
+         "ref": "intro4.ht",
+         "title": "More on the main diagonal",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "intro5",
+         "previousWorkNodeIds": [],
+         "ref": "intro5.ht",
+         "title": "One more main diagonal",
+         "type": "HtmlNode"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro6",
+         "title":"Same diagonal?",
+         "ref":"intro6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_0",
+            "seq_1"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"Basics: 2-D Arrays",
+         "view":"",
+         "refs":["intro0",
+            "intro1",
+            "intro2",
+            "intro3",
+            "intro4",
+            "intro5",
+            "intro6"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Exercises with 2-D Arrays",
+         "view":"",
+         "refs":["exercises0",
+            "exercises3",
+            "exercises2"
+         ]
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 7: Lesson 23"
+}

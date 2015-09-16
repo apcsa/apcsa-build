@@ -1,0 +1,823 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 2: Lesson 4",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"broken1",
+         "title":"Broken real-world objects",
+         "ref":"brokenRW.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"broken2",
+         "title":"Broken programming objects",
+         "ref":"broken2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"broken3",
+         "title":"Sources of misuse",
+         "ref":"broken3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"broken5",
+         "title":"More bad numbers",
+         "ref":"broken5.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"broken7",
+         "title":"One more kind of breakage",
+         "ref":"broken7.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"broken8",
+         "title":"Why do we care?",
+         "ref":"broken8.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"broken9",
+         "title":"Detecting attempts to break a Refillable object",
+         "ref":"broken9.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"broken9a",
+         "title":"An example",
+         "ref":"broken9a.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"broken9b",
+         "title":"The entire Refillable class",
+         "ref":"broken9b.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond1-intro",
+         "title":"Motivation for Conditionals",
+         "ref":"cond1-Intro.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond2-Intro2",
+         "title":"The Conditional Statement",
+         "ref":"cond2-Intro2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"opposite_ops",
+         "title":"Opposite operators",
+         "ref":"opposite_ops.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond2a-Intro2",
+         "title":"An example",
+         "ref":"cond2a-Intro2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"useUp",
+         "title":"Animating useUp",
+         "ref":"useUp.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"simulation"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"solidify_if_stmt",
+         "title":"Solidifying your understanding (1)",
+         "ref":"solidify_if_stmt.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"solidify_if",
+         "title":"Solidifying your understanding (2)",
+         "ref":"solidify_if.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond5-ifthenelse",
+         "title":"The if-else Statement",
+         "ref":"cond5-ifthenelse.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond5a-ifthenelse",
+         "title":"An example",
+         "ref":"cond5a-ifthenelse.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"useUp2",
+         "title":"Animating useUp again",
+         "ref":"useUp2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"simulation"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"solidify_ifthenelse1",
+         "title":"Solidifying your understanding (3)",
+         "ref":"solidify_ifthenelse1.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"solidify_ifthenelse2",
+         "title":"Solidifying your understanding (4)",
+         "ref":"solidify_ifthenelse2.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"cond8-compare",
+         "title":"Comparing two program segments",
+         "ref":"cond8-compare.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond9-complete",
+         "title":"Using nested if statements",
+         "ref":"cond9-complete.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond10-cascadeifthenelse",
+         "title":"Cascading if-else statements",
+         "ref":"cond10-cascadeifthenelse.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"CascadeIfThenElse",
+         "title":"Another simulation",
+         "ref":"CascadeIfThenElse.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"simulation"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"cond12-buggy",
+         "title":"Analyzing Buggy Code",
+         "ref":"cond12-buggy.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond13-nestedifs",
+         "title":"Nested if statements",
+         "ref":"cond13-nestedifs.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"NestedIfs",
+         "title":"And another simulation",
+         "ref":"NestedIfs.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"simulation"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond46-codingalternatives",
+         "title":"Coding Alternatives",
+         "ref":"cond46-codingalternatives.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond15-complete",
+         "title":"Another Comfort Level Detector",
+         "ref":"cond15-complete.ht",
+         "previousWorkNodeIds":[],
+         "links":[]
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond16-morecomplete",
+         "title":"More Completion Exercises",
+         "ref":"cond16-morecomplete.ht",
+         "previousWorkNodeIds":[],
+         "links":[]
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"broken3a",
+         "title":"A broken Refillable object",
+         "ref":"broken3a.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"broken4",
+         "title":"Symptoms of breakage",
+         "ref":"broken4.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond17-reflection",
+         "title":"Understandability",
+         "ref":"cond17-reflection.ht",
+         "previousWorkNodeIds":[],
+         "links":[]
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond19-quiz",
+         "title":"Quiz Part 1",
+         "ref":"cond19-quiz.ht",
+         "previousWorkNodeIds":[],
+         "links":[]
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"cond20-quiz",
+         "title":"Quiz Part 2",
+         "ref":"cond20-quiz.ht",
+         "previousWorkNodeIds":[],
+         "links":[]
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"debug_test1",
+         "title":"Finding a bug",
+         "ref":"debug_test1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"instantquiz"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"debug_test3",
+         "title":"How you found it",
+         "ref":"debug_test3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"debug_test4",
+         "title":"Cause of the bug",
+         "ref":"debug_test4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"debug_test5",
+         "title":"Why test a program?",
+         "ref":"debug_test5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"cartoon"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"test_principle1",
+         "title":"Test principle 1",
+         "ref":"test_principle1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"leap_year_bkgnd",
+         "title":"Leap years",
+         "ref":"leap_year_bkgnd.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MatchSequenceNode",
+         "identifier":"leap_year_check",
+         "title":"Identifying leap years",
+         "ref":"leap_year_check.ms",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"matchsequence"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"isFeb29",
+         "title":"February 29th",
+         "ref":"isFeb29.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"instantquiz"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"own_words",
+         "title":"Your definition",
+         "ref":"own_words.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"leap_day_counter",
+         "title":"Counting leap days",
+         "ref":"leap_day_counter.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"instantquiz"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"applying_princ1",
+         "title":"Applying testing principle 1",
+         "ref":"applying_princ1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"why_inadequate",
+         "title":"Reasons the bug might be undetected",
+         "ref":"why_inadequate.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"princ2",
+         "title":"Testing Principle 2",
+         "ref":"princ2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"princ2a",
+         "title":"Examples (1)",
+         "ref":"princ2a.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"princ2b",
+         "title":"Examples (2)",
+         "ref":"princ2b.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"princ2c",
+         "title":"Examples (3)",
+         "ref":"princ2c.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"more_princ2",
+         "title":"Principle 2 applied to leap day counting",
+         "ref":"more_princ2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"logically_possible",
+         "title":"Which are possible?",
+         "ref":"logically_possible.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"boundary_cases",
+         "title":"Defining boundary cases",
+         "ref":"boundary_cases.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"boundary_cases_bs",
+         "title":"Devising boundary cases",
+         "ref":"boundary_cases.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"debug-test1bluej",
+         "title":"Finding a bug",
+         "ref":"debug_test1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"simulation"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"isFeb29th",
+         "title":"February 29th",
+         "ref":"isFeb29.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"leap_day_counterbluej",
+         "title":"A Leap Day Counter",
+         "ref":"leap_day_counter.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_0.ht",
+         "title":"The meaning of broken",
+         "ref":"node_0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_1.mc",
+         "title":"Signs of breakage",
+         "ref":"node_1.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_2.bs",
+         "title":"Description of breakage",
+         "ref":"node_2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_3.bs",
+         "title":"Method calls that break a Refillable",
+         "ref":"node_3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_4.ht",
+         "title":"Bad method calls",
+         "ref":"node_4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_7.ht",
+         "title":"Comparisons",
+         "ref":"node_7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_8.ht",
+         "title":"true and false",
+         "ref":"node_8.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_9.ht",
+         "title":"Validating the constructor's argument",
+         "ref":"node_9.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_10.ht",
+         "title":"Optional curly brackets",
+         "ref":"node_10.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_11.ht",
+         "title":"Reasons for not using this shortcut",
+         "ref":"node_11.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_12.mc",
+         "title":"A common bug",
+         "ref":"node_12.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_13.ht",
+         "title":"Indenting styles",
+         "ref":"node_13.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_14.ht",
+         "title":"What we've done (1)",
+         "ref":"node_14.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_15.ht",
+         "title":"What we've done (2)",
+         "ref":"node_15.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_16.ht",
+         "title":"What we've done (3)",
+         "ref":"node_16.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_17.ht",
+         "title":"Practice with conditionals",
+         "ref":"node_17.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"masterSequence",
+         "view":"",
+         "refs":["Introduction",
+            "ConditionalsInDepth",
+            "IntroductionToTesting",
+            "seq_summary"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"Introduction",
+         "title":"Introduction",
+         "view":"",
+         "refs":["broken1",
+            "broken2",
+            "node_0.ht",
+            "node_1.mc",
+            "node_2.bs",
+            "BrokenObjects",
+            "WhatAreConditionals"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"BrokenObjects",
+         "title":"Causes of breakage",
+         "view":"",
+         "refs":["broken3",
+            "broken5",
+            "node_3.bs",
+            "broken7",
+            "node_4.ht",
+            "broken8",
+            "broken9",
+            "broken9a",
+            "broken9b"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"WhatAreConditionals",
+         "title":"What are Conditionals?",
+         "view":"",
+         "refs":["cond1-intro",
+            "cond2-Intro2",
+            "node_7.ht",
+            "node_8.ht",
+            "opposite_ops",
+            "cond2a-Intro2",
+            "useUp",
+            "node_9.ht",
+            "solidify_if_stmt",
+            "solidify_if"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"ConditionalsInDepth",
+         "title":"Conditionals in Depth",
+         "view":"",
+         "refs":["cond5-ifthenelse",
+            "cond5a-ifthenelse",
+            "useUp2",
+            "solidify_ifthenelse1",
+            "solidify_ifthenelse2",
+            "cond8-compare",
+            "cond9-complete",
+            "cond10-cascadeifthenelse",
+            "CascadeIfThenElse",
+            "cond12-buggy",
+            "cond13-nestedifs",
+            "NestedIfs",
+            "node_10.ht",
+            "node_11.ht",
+            "node_12.mc",
+            "node_13.ht",
+            "cond46-codingalternatives"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"IntroductionToTesting",
+         "title":"Introduction to Testing",
+         "view":"",
+         "refs":["debug-test1bluej",
+            "debug_test3",
+            "debug_test4",
+            "debug_test5",
+            "ATestingPrinciple",
+            "AnotherPrinciple"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"ATestingPrinciple",
+         "title":"A Testing Principle",
+         "view":"",
+         "refs":["test_principle1",
+            "leap_year_bkgnd",
+            "leap_year_check",
+            "isFeb29th",
+            "own_words",
+            "leap_day_counterbluej",
+            "applying_princ1",
+            "why_inadequate"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"AnotherPrinciple",
+         "title":"Another Principle",
+         "view":"",
+         "refs":["princ2",
+            "princ2a",
+            "princ2b",
+            "princ2c",
+            "more_princ2",
+            "logically_possible",
+            "boundary_cases",
+            "boundary_cases_bs"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_summary",
+         "title":"Review",
+         "view":"normal",
+         "refs":["node_14.ht",
+            "node_15.ht",
+            "node_16.ht",
+            "seq_exercises"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_exercises",
+         "title":"Exercises",
+         "view":"normal",
+         "refs":["node_17.ht"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

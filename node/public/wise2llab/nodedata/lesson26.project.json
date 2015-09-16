@@ -1,0 +1,185 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"S",
+   "title":"/lesson26",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"intro0",
+         "title":"More complex recursions",
+         "ref":"intro0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro1",
+         "title":"A more complex interval sum",
+         "ref":"intro1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro2",
+         "title":"How it works",
+         "ref":"intro2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro3",
+         "title":"A diagram",
+         "ref":"intro3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"intro4",
+         "title":"sumHelper in your own words",
+         "ref":"intro4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"intro5",
+         "title":"sumHelper analysis",
+         "ref":"intro5.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"intro6",
+         "title":"another sumHelper analysis",
+         "ref":"intro6.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"pathcount0",
+         "title":"Path counting",
+         "ref":"pathcount0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"pathcount1",
+         "title":"Base cases",
+         "ref":"pathcount1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"pathcount2",
+         "title":"Return value when n and k are both 0?",
+         "ref":"pathcount2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"pathcount3",
+         "title":"What we have so far",
+         "ref":"pathcount3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"pathcount4",
+         "title":"A key insight",
+         "ref":"pathcount4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"pathcount5",
+         "title":"The code",
+         "ref":"pathcount5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"pathcount6",
+         "title":"What if n and k are both 0?",
+         "ref":"pathcount6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"pathcount7",
+         "title":"Code analysis",
+         "ref":"pathcount7.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_0",
+            "seq_1"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"Interval summing",
+         "view":"",
+         "refs":["intro0",
+            "intro1",
+            "intro2",
+            "intro3",
+            "intro4",
+            "intro5",
+            "intro6"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Path counting",
+         "view":"",
+         "refs":["pathcount0",
+            "pathcount1",
+            "pathcount2",
+            "pathcount3",
+            "pathcount4",
+            "pathcount5",
+            "pathcount6",
+            "pathcount7"
+         ]
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 8: Lesson 26"
+}

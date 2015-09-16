@@ -1,0 +1,297 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 3: Lesson 11",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"intro_0.html",
+         "title":"A larger program",
+         "ref":"intro_0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"monty_0.html",
+         "title":"The Monty Hall problem",
+         "ref":"monty_0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"monty_1.bluej",
+         "title":"A program to model the Monty Hall problem",
+         "ref":"monty_1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"monty_2.bs",
+         "title":"Your results",
+         "ref":"monty_2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"monty_3.bs",
+         "title":"The best strategy",
+         "ref":"monty_3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_6.bs",
+         "title":"Control flow",
+         "ref":"node_6.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_9.html",
+         "title":"The goatDoorToShow method",
+         "ref":"node_9.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_10.html",
+         "title":"Desired results when contestant has guessed the car",
+         "ref":"node_10.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_11.bs",
+         "title":"How it works",
+         "ref":"node_11.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_14.bs",
+         "title":"Generalizing from limited data",
+         "ref":"node_14.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_15.html",
+         "title":"Lots of trials",
+         "ref":"node_15.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"codeit"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_17.bs",
+         "title":"The best strategy",
+         "ref":"node_17.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_0.bs",
+         "title":"Sequence of calls",
+         "ref":"node_0.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"MatchSequenceNode",
+         "identifier":"node_1.ms",
+         "title":"Relation of values",
+         "ref":"node_1.ms",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"matchsequence"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_2.mc",
+         "title":"Mouse click handling",
+         "ref":"node_2.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_3.mc",
+         "title":"Calls to Stage methods",
+         "ref":"node_3.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_5.ht",
+         "title":"Suppose the contestant has chosen a goat",
+         "ref":"node_5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_8.bs",
+         "title":"How it works",
+         "ref":"node_8.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_12.bs",
+         "title":"A different algorithm",
+         "ref":"node_12.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_18.mc",
+         "title":"Clicks vs. doorWithCar",
+         "ref":"node_18.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_19.ht",
+         "title":"A cheating Monty",
+         "ref":"node_19.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_20.ht",
+         "title":"Consistency checking",
+         "ref":"node_20.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_21.ht",
+         "title":"Using Random.nextInt",
+         "ref":"node_21.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_22.ht",
+         "title":"goatDoor values",
+         "ref":"node_22.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_16.bs",
+         "title":"Alternative goatDoorToShow",
+         "ref":"node_16.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_2",
+            "seq_0",
+            "seq_1",
+            "seq_3"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"The 'Monty Hall' problem",
+         "view":"",
+         "refs":["monty_0.html",
+            "monty_1.bluej",
+            "monty_2.bs",
+            "monty_3.bs"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Exploring the program",
+         "view":"",
+         "refs":["node_0.bs",
+            "node_1.ms",
+            "node_2.mc",
+            "node_3.mc",
+            "node_18.mc",
+            "node_9.html",
+            "node_10.html",
+            "node_11.bs",
+            "node_5.ht",
+            "node_8.bs",
+            "node_16.bs",
+            "node_12.bs",
+            "node_14.bs",
+            "node_15.html",
+            "node_17.bs"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_2",
+         "title":"Introduction",
+         "view":"",
+         "refs":["intro_0.html"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_3",
+         "title":"Exercises",
+         "view":"normal",
+         "refs":["node_19.ht",
+            "node_20.ht",
+            "node_21.ht",
+            "node_22.ht"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

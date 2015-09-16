@@ -1,0 +1,25 @@
+<div class="brainstorm-data" id="" isgated="{{:isGated}}"
+    expected-lines="{{:assessmentItem.interaction.expectedLines}}"
+    display-name="{{:displayName}}" use-server="{{:useServer}}"
+    server="default">
+
+
+    <div class="title">{{:title}}</div>
+
+    <div class="prompt">
+    {{:assessmentItem.interaction.prompt}}
+    </div>
+
+
+    <div class="starter">
+    </div>
+
+
+    <div class="canned-responses">
+        {{for cannedResponses}}
+        <div name="{{:name}}">{{:response}}
+        </div>
+        {{/for}}
+    </div>
+
+</div>

@@ -1,0 +1,550 @@
+{
+   "autoStep": true,
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 4: Lesson 14",
+   "constraints": [],
+   "nodes": [
+      {
+         "type": "HtmlNode",
+         "identifier": "intro_0.html",
+         "title": "Shuffling and sorting",
+         "ref": "intro_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "shuffle_0.bluej",
+         "title": "Initialization of a deck",
+         "ref": "shuffle_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "shuffle_1.bluej",
+         "title": "Shuffling properties",
+         "ref": "shuffle_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "shuffle_2.bs",
+         "title": "Shuffling results?",
+         "ref": "shuffle_2.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "shuffle_3.mc",
+         "title": "Card arrangement counting (1)",
+         "ref": "shuffle_3.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "shuffle_4.mc",
+         "title": "Card arrangement counting (2)",
+         "ref": "shuffle_4.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "shuffle_5.html",
+         "title": "How 'perfect' is it?",
+         "ref": "shuffle_5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "shuffle_6.html",
+         "title": "Two approaches to random shuffling",
+         "ref": "shuffle_6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "shuffle_7.html",
+         "title": "Ending the exchange",
+         "ref": "shuffle_7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "shuffle_8.html",
+         "title": "Analysis by hand",
+         "ref": "shuffle_8.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "shuffle_7.bs",
+         "title": "Ending the exchange",
+         "ref": "shuffle_7.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "sorting_0.html",
+         "title": "Selection-based sorting",
+         "ref": "sorting_0.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "sorting_1.html",
+         "title": "Insertion sorting",
+         "ref": "sorting_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "sorting_2.bs",
+         "title": "Comparison of sorting methods (1)",
+         "ref": "sorting_2.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "sorting_3.bs",
+         "title": "Comparison of sorting methods (2)",
+         "ref": "sorting_3.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "sorting_4.html",
+         "title": "Evaluating algorithm efficiency",
+         "ref": "sorting_4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "sorting_5.html",
+         "title": "Statement counting",
+         "ref": "sorting_5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "sorting_6.bs",
+         "title": "Experiments with insertion sort",
+         "ref": "sorting_6.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "sorting_7.bs",
+         "title": "Experiments with selection sort",
+         "ref": "sorting_7.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "review_1.html",
+         "title": "What we've done (1)",
+         "ref": "review_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "summary"
+      },
+      {
+         "type": "OpenResponseNode",
+         "identifier": "node_0.or",
+         "title": "ggg",
+         "ref": "node_0.or",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "openresponse"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_1.ht",
+         "title": "bbb",
+         "ref": "node_1.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_2.ht",
+         "title": "A 'perfect' shuffle",
+         "ref": "node_2.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_3.ht",
+         "title": "Checking results by hand",
+         "ref": "node_3.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_4.ht",
+         "title": "What about two exchanges?",
+         "ref": "node_4.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "simulation"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_5.ht",
+         "title": "Shuffling by selection",
+         "ref": "node_5.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "shuffle_9.bs",
+         "title": "Evaluating the exchange-based shuffle",
+         "ref": "shuffle_9.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_6.ht",
+         "title": "Coding the selection shuffle",
+         "ref": "node_6.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_7.ht",
+         "title": "More ArrayList methods",
+         "ref": "node_7.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_8.ht",
+         "title": "More ArrayList operations",
+         "ref": "node_8.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_9.ht",
+         "title": "Examples",
+         "ref": "node_9.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "MatchSequenceNode",
+         "identifier": "node_10.ms",
+         "title": "Tracing some code",
+         "ref": "node_10.ms",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "matchsequence"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_11.ht",
+         "title": "Introduction",
+         "ref": "node_11.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "intro"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "node_12.bs",
+         "title": "Real-world sorting applications",
+         "ref": "node_12.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_14.mc",
+         "title": "Selection sort getting started",
+         "ref": "node_14.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "node_15.bs",
+         "title": "Properties",
+         "ref": "node_15.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_16.ht",
+         "title": "Implementation",
+         "ref": "node_16.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_17.mc",
+         "title": "Insertion sort in action (1)",
+         "ref": "node_17.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "MultipleChoiceNode",
+         "identifier": "node_18.mc",
+         "title": "Insertion sort in action (2)",
+         "ref": "node_18.mc",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "multiplechoice"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_19.ht",
+         "title": "Implementation",
+         "ref": "node_19.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_20.ht",
+         "title": "What we've done (2)",
+         "ref": "node_20.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "summary"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_21.ht",
+         "title": "Identifying the mystery sort",
+         "ref": "node_21.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_22.ht",
+         "title": "Checking for 'sortitude'",
+         "ref": "node_22.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_23.ht",
+         "title": "Another way to shuffle",
+         "ref": "node_23.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_24.ht",
+         "title": "In-place sorting",
+         "ref": "node_24.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "homework"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_25.ht",
+         "title": "Comparison counting sort",
+         "ref": "node_25.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "curriculum"
+      },
+      {
+         "type": "BrainstormNode",
+         "identifier": "node_26.bs",
+         "title": "Description of the bug",
+         "ref": "node_26.bs",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "brainstorm"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_27.ht",
+         "title": "Bug fixing",
+         "ref": "node_27.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      },
+      {
+         "type": "HtmlNode",
+         "identifier": "node_13.ht",
+         "title": "outranks",
+         "ref": "node_13.ht",
+         "previousWorkNodeIds": [],
+         "links": [],
+         "class": "codeit"
+      }
+   ],
+   "sequences": [
+      {
+         "type": "sequence",
+         "identifier": "master",
+         "title": "master",
+         "view": "",
+         "refs": [
+            "seq_lt0",
+            "seq_0",
+            "seq_1",
+            "seq_2",
+            "seq_3"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_lt0",
+         "title": "Introduction",
+         "view": "",
+         "refs": [
+            "intro_0.html",
+            "node_8.ht",
+            "node_9.ht",
+            "node_10.ms"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_0",
+         "title": "Card shuffling",
+         "view": "",
+         "refs": [
+            "shuffle_0.bluej",
+            "shuffle_1.bluej",
+            "shuffle_2.bs",
+            "shuffle_3.mc",
+            "shuffle_4.mc",
+            "node_2.ht",
+            "shuffle_5.html",
+            "shuffle_6.html",
+            "shuffle_7.bs",
+            "node_3.ht",
+            "node_4.ht",
+            "shuffle_9.bs",
+            "node_5.ht",
+            "node_6.ht"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_1",
+         "title": "Sorting",
+         "view": "",
+         "refs": [
+            "node_11.ht",
+            "node_12.bs",
+            "node_13.ht",
+            "sorting_0.html",
+            "node_14.mc",
+            "node_15.bs",
+            "node_16.ht",
+            "sorting_1.html",
+            "node_17.mc",
+            "node_18.mc",
+            "node_19.ht",
+            "node_25.ht",
+            "node_26.bs",
+            "node_27.ht",
+            "sorting_2.bs",
+            "sorting_3.bs",
+            "sorting_4.html",
+            "sorting_5.html",
+            "sorting_6.bs",
+            "sorting_7.bs"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_2",
+         "title": "Review",
+         "view": "normal",
+         "refs": [
+            "review_1.html",
+            "node_20.ht"
+         ]
+      },
+      {
+         "type": "sequence",
+         "identifier": "seq_3",
+         "title": "Exercises",
+         "view": "normal",
+         "refs": [
+            "node_21.ht",
+            "node_22.ht",
+            "node_23.ht",
+            "node_24.ht"
+         ]
+      }
+   ],
+   "startPoint": "master"
+}

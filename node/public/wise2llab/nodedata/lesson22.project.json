@@ -1,0 +1,267 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 7: Lesson 22",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"arraylist_impl0",
+         "title":"ArrayList internals revealed",
+         "ref":"arraylist_impl0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arraylist_impl1",
+         "title":"ArrayList instance variables",
+         "ref":"arraylist_impl1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arraylist_impl2",
+         "title":"The contains method",
+         "ref":"arraylist_impl2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arraylist_impl3",
+         "title":"Implementing the two-argument add method",
+         "ref":"arraylist_impl3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"arraylist_impl4",
+         "title":"Shifting direction interchangeable?",
+         "ref":"arraylist_impl4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arraylist_impl5",
+         "title":"The remove method",
+         "ref":"arraylist_impl5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arraylist_impl6",
+         "title":"Auto-expanding",
+         "ref":"arraylist_impl6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrayproc0",
+         "title":"Common array-processing patterns",
+         "ref":"arrayproc0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrayproc1",
+         "title":"A treasure hunt",
+         "ref":"arrayproc1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrayproc2",
+         "title":"Binary search",
+         "ref":"arrayproc2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays0",
+         "title":"Arrays",
+         "ref":"arrays0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays1",
+         "title":"Declaration of an array",
+         "ref":"arrays1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"arrays10",
+         "title":"Playing with references in arrays of objects",
+         "ref":"arrays10.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays2",
+         "title":"Array initialization, method 1",
+         "ref":"arrays2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays3",
+         "title":"Array initialization, method 2",
+         "ref":"arrays3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays4",
+         "title":"Array use",
+         "ref":"arrays4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays5",
+         "title":"Comparing initialization code",
+         "ref":"arrays5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays6",
+         "title":"Comparison with ArrayLists",
+         "ref":"arrays6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays7",
+         "title":"The length of an array",
+         "ref":"arrays7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"arrays8",
+         "title":"A LineSegment class",
+         "ref":"arrays8.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"arrays9",
+         "title":"Playing with references to arrays",
+         "ref":"arrays9.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"psvm0",
+         "title":"Running Java programs without BlueJ, revisited",
+         "ref":"psvm0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_lt0",
+            "seq_0",
+            "seq_1",
+            "seq_2"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_lt0",
+         "title":"Introduction to arrays",
+         "view":"",
+         "refs":["arrays0"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"Details of arrays",
+         "view":"",
+         "refs":["arrays1",
+            "arrays2",
+            "arrays3",
+            "arrays4",
+            "arrays5",
+            "arrays6",
+            "arrays7",
+            "arrays8",
+            "arrays10"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Array processing",
+         "view":"",
+         "refs":["arrayproc0",
+            "arrayproc1",
+            "arrayproc2"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_2",
+         "title":"Using arrays to build ArrayLists",
+         "view":"",
+         "refs":["arraylist_impl0",
+            "arraylist_impl1",
+            "arraylist_impl2",
+            "arraylist_impl3",
+            "arraylist_impl4",
+            "arraylist_impl5",
+            "arraylist_impl6",
+            "psvm0"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

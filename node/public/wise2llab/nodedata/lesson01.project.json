@@ -1,0 +1,746 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"Step",
+   "title":"Unit 0: Lesson 1",
+   "nodes":[{
+         "type":"MatchSequenceNode",
+         "identifier":"1.13",
+         "title":"Matching challenge",
+         "ref":"1.13.ms",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"matchsequence"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"a1s1",
+         "title":"Understanding an alarm  ",
+         "ref":"a1s1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"movie"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"a2s3",
+         "title":"Models and objects",
+         "ref":"a2s3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.4.memory",
+         "title":"Remembering information",
+         "ref":"1.4.memory.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.4.variables",
+         "title":"Variables",
+         "ref":"1.4.variables.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.4.alarmclock",
+         "title":"An alarm clock's memory",
+         "ref":"1.4.alarmclock.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"1.9",
+         "title":"Invisible behaviors",
+         "ref":"1.9.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"2.1",
+         "title":"Classes and instances",
+         "ref":"2.1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"2.2",
+         "title":"Visualizing classes and instances",
+         "ref":"2.2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"cartoon"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"2.3",
+         "title":"Inferring a class ",
+         "ref":"2.3.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"2.4",
+         "title":"Supplying some instances",
+         "ref":"2.4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"2.5b",
+         "title":"Class vs instance",
+         "ref":"2.5b.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"2.6",
+         "title":"Playing cards",
+         "ref":"2.6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"2.8",
+         "title":"Card class vs card instances (Q1)",
+         "ref":"2.8.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"2.10",
+         "title":"Card class vs card instances (Q2)",
+         "ref":"2.10.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"2.14",
+         "title":"Producing a particular display",
+         "ref":"2.14.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.1",
+         "title":"Details about state (1)",
+         "ref":"3.1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"cartoon"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.1b",
+         "title":"Details about state (2)",
+         "ref":"3.1b.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"3.2",
+         "title":"Alternative to Boolean info",
+         "ref":"3.2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.3",
+         "title":"Representing pieces of information with state variables",
+         "ref":"3.3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"3.4",
+         "title":"Representation (Q1)",
+         "ref":"3.4.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"3.5",
+         "title":"Representation (Q2)",
+         "ref":"3.5.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.6",
+         "title":"Combining complicated information",
+         "ref":"3.6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"3.7",
+         "title":"Data representation",
+         "ref":"3.7.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"3.8",
+         "title":"Representing a volume",
+         "ref":"3.8.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"3.9",
+         "title":"Numeric representation of music volume",
+         "ref":"3.9.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"3.10",
+         "title":"Representing max/min volumes with a string",
+         "ref":"3.10.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"3.11",
+         "title":"Representing the state of a toaster",
+         "ref":"3.11.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.12",
+         "title":"Representing behaviors as Java methods",
+         "ref":"3.12.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.13",
+         "title":"Calling methods",
+         "ref":"3.13.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.14",
+         "title":"Drawing a game board",
+         "ref":"3.14.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"3.15",
+         "title":"Demonstration of a game board",
+         "ref":"3.15.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"simulation"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"3.16",
+         "title":"What happened (Q1)",
+         "ref":"3.16.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"3.17",
+         "title":"What happened (Q2)",
+         "ref":"3.17.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"2.7",
+         "title":"A playing card instance",
+         "ref":"2.7.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"null"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"2.11",
+         "title":"Objects working in collaboration",
+         "ref":"2.11.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"2.12",
+         "title":"Calculator simulation",
+         "ref":"2.12.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"simulation"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"2.13",
+         "title":"Counting applications of accumulator behaviors",
+         "ref":"2.13.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_0.bs",
+         "title":"Producing a particular display",
+         "ref":"node_0.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_1.ht",
+         "title":"Determining behaviors",
+         "ref":"node_1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"a1s2c",
+         "title":"Alarm clock behaviors",
+         "ref":"a1s2c.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_7.mc",
+         "title":"The tick behavior",
+         "ref":"node_7.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_8.ht",
+         "title":"Characteristics of behaviors",
+         "ref":"node_8.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_6.ht",
+         "title":"Level of modeling detail",
+         "ref":"node_6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_13.ht",
+         "title":"Creating and running programs",
+         "ref":"node_13.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.8.a",
+         "title":"A toaster's behavior",
+         "ref":"1.8.toasterstate.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"display"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.8.b",
+         "title":"A toaster's variables",
+         "ref":"1.8.toastervariables.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MatchSequenceNode",
+         "identifier":"node_11.ms",
+         "title":"Classification of toaster behaviors",
+         "ref":"node_11.ms",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"matchsequence"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_12.bs",
+         "title":"A proposed state variable",
+         "ref":"node_12.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"OpenResponseNode",
+         "identifier":"1.10",
+         "title":"Noticing similarities among behaviors",
+         "ref":"1.10.or",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"openresponse"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.11.paragraphs",
+         "title":"Dealing with similarity in behaviors",
+         "ref":"1.11.paragraphs.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.11.parameters",
+         "title":"Parameters",
+         "ref":"1.11.parameters.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.12",
+         "title":"A parameter with a toaster behavior",
+         "ref":"1.12.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"1.14",
+         "title":"Cell phone state and behaviors",
+         "ref":"1.14.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_14.ht",
+         "title":"Portable media player state and behaviors",
+         "ref":"node_14.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_15.ht",
+         "title":"Vending machine state and behaviors",
+         "ref":"node_15.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_16.ht",
+         "title":"A more interesting vending machine",
+         "ref":"node_16.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"homework"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"1.6",
+         "title":"Advanced behaviors",
+         "ref":"1.6.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_20.ht",
+         "title":"Interacting objects",
+         "ref":"node_20.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_21.ht",
+         "title":"What we've done (1)",
+         "ref":"node_21.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_22.mc",
+         "title":"Interaction?",
+         "ref":"node_22.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"MatchSequenceNode",
+         "identifier":"node_10.ms",
+         "title":"The clock-plus-calendar tick behavior",
+         "ref":"node_10.ms",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"matchsequence"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"1.7",
+         "title":"Behaviors and state: working together",
+         "ref":"1.7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_23.bs",
+         "title":"Examples",
+         "ref":"node_23.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_24.ht",
+         "title":"Behaviors thus far",
+         "ref":"node_24.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_26.ht",
+         "title":"Disable alarm vs. turn off alarm",
+         "ref":"node_26.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_25.bs",
+         "title":"Pop up vs. stop toasting",
+         "ref":"node_25.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_27.ht",
+         "title":"What we've done (2)",
+         "ref":"node_27.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_28.ht",
+         "title":"What we've done (3)",
+         "ref":"node_28.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"summary"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"Master List",
+         "view":"",
+         "refs":["1-Objects-and-Behaviors",
+            "seq_3",
+            "2-Objects-and-Classes",
+            "3-Looking-Inside-An-Object",
+            "seq_1",
+            "seq_2"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"1-Objects-and-Behaviors",
+         "title":"Objects and Behaviors",
+         "view":"",
+         "refs":["a1s1",
+            "a2s3",
+            "node_1.ht",
+            "a1s2c",
+            "1.4.memory",
+            "1.4.variables",
+            "1.4.alarmclock",
+            "node_6.ht",
+            "1.7",
+            "node_23.bs",
+            "node_24.ht",
+            "node_26.ht",
+            "node_7.mc",
+            "node_8.ht",
+            "1.6",
+            "node_20.ht",
+            "node_22.mc",
+            "node_10.ms"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"2-Objects-and-Classes",
+         "title":"Objects and Classes",
+         "view":"",
+         "refs":["node_13.ht",
+            "2.1",
+            "2.2",
+            "2.3",
+            "2.4",
+            "2.5b",
+            "2.6",
+            "2.8",
+            "2.10"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"3-Looking-Inside-An-Object",
+         "title":"Looking Inside an Object",
+         "view":"",
+         "refs":["3.1",
+            "3.1b",
+            "3.2",
+            "3.3",
+            "3.4",
+            "3.5",
+            "3.6",
+            "3.7",
+            "3.8",
+            "3.9",
+            "3.10",
+            "3.11",
+            "3.12",
+            "3.13",
+            "3.14",
+            "3.15",
+            "3.16",
+            "3.17"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_1",
+         "title":"Summary",
+         "view":"normal",
+         "refs":["node_21.ht",
+            "node_27.ht",
+            "node_28.ht"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_2",
+         "title":"Exercises",
+         "view":"normal",
+         "refs":["node_14.ht",
+            "node_15.ht",
+            "node_16.ht"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_3",
+         "title":"A more complicated object",
+         "view":"normal",
+         "refs":["1.8.a",
+            "node_25.bs",
+            "1.8.b",
+            "node_11.ms",
+            "node_12.bs",
+            "1.10",
+            "1.11.paragraphs",
+            "1.11.parameters",
+            "1.12",
+            "1.14"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}
