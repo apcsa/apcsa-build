@@ -11,6 +11,7 @@
 var njsrender = require('node-jsrender');
 // var jsrender = require('jsrender');
 var fs = require('fs');
+var $ = require('jquery');
 
 
 //function get_template(path) {
@@ -18,14 +19,41 @@ var fs = require('fs');
 //    return (jsrender.templates(tmpl));
 //}
 
+
+
+njsrender.loadFileSync('#emptypage','./templates/empty-curriculum-page.html');
 // type is the file extension, minus the .
 // contents are the wise contents.
-function convert_file(type, wisecontents) {
+function convert_file(type, wisecontents, title, filename) {
+    var div="";
+    var data={};
+    var output;
+    data['title']=title;
+    
     if (type == "html") {
-        return "HAHA" + wisecontents;
-    } else if (type == "ms") {
+        // ignore title from .topic - html already has it.
+        wisecontents = wisecontents.replace("../../../script/loader_main.js", "/apcsa/llab/loader.js");
         
-        return "HAHA" + wisecontents;
+        
+        return wisecontents;
+    } else if (type == "ms") {
+        // MS
+        data['body']=wisems2llabdiv(wisecontents, 0);
+        output = njsrender.render['#emptypage'](data)
+        return output;
+    } else if (type == "mc") {
+        data['body']=wisemc2llabdiv(wisecontents, filename);
+        output = njsrender.render['#emptypage'](data)
+        return output;
+    } else if (type == "bs") {
+        data['body']=wisebs2llabdiv(wisecontents);
+console.log("HERE" + data['body']);
+        output = njsrender.render['#emptypage'](data);
+        return output;
+    } else {
+        console.log("----");
+        console.log("UNKNOWN FILETYPE: " + ext);
+        console.log("----");
     }
 }
 
@@ -39,10 +67,15 @@ function clean(val) {
     return val;
 }
 
+if (!String.prototype.includes) {
+    String.prototype.includes = function() {'use strict';
+      return String.prototype.indexOf.apply(this, arguments) !== -1;
+    };
+  }
+
 // ////////////////////
 // / multiple choice
 // ////////////////////
-
 
 //var mctmpl = get_template('./templates/mc_assdatadiv_template.html');
 njsrender.loadFileSync('#mctmpl','./templates/mc_assdatadiv_template_noconverters.html');
@@ -54,6 +87,12 @@ function wisemc2llabdiv(wisemcjson, filename) {
     wisemc['identifier'] = filename;
     // do the converter stuff here
     wisemc['type'] = wisemc['type'].toLowerCase();
+    wisemc.assessmentItem.interaction.prompt = clean(wisemc.assessmentItem.interaction.prompt);
+    var choices = wisemc.assessmentItem.interaction.choices;
+    choices.forEach(function(choice, i, array) {
+        array[i].text = clean(array[i].text);
+        array[i].feedback = clean(array[i].feedback);
+    })
     //var output = mctmpl(wisemc);
     var output = njsrender.render['#mctmpl'](wisemc);
     
@@ -77,12 +116,13 @@ function wisebs2llabdiv(wisebsjson) {
         wisebs.assessmentItem.interaction.prompt = "<p> " + prompt + " </p>";
     }
     // do converter work
-    wisebs['assessmentItem.interaction.prompt'] = clean(wisebs['assessmentItem.interaction.prompt']);
-    wisebs['canned-responses'].forEach = function(val, index, array) {
+    wisebs.assessmentItem.interaction.prompt = clean(wisebs.assessmentItem.interaction.prompt);
+    var canned = wisebs.cannedResponses;
+    canned.forEach = function(val, index, array) {
         array[i] = clean(array[i]);
     }
     //var output = bstmpl(wisebs);
-    var output = njsrender.render['#mctmpl'](wisebs);
+    var output = njsrender.render['#bstmpl'](wisebs);
     return output;
 }
 
@@ -119,11 +159,6 @@ function wisems2llabdiv(wisemsjson, div_index_on_page) {
     return output;
 }
 
-
-// takes contents of X.ms file, returns contents of X.html file (with msdata-div)
-function wisems2html(wisemsjson) {
-    
-}
 
 
 

@@ -6,14 +6,14 @@
     responseIdentifier="{{:assessmentItem.interaction.responseIdentifier}}"
     shuffle="{{:assessmentItem.interaction.shuffle}}">
 
-    <div class="prompt">{{clean:assessmentItem.interaction.prompt}}
+    <div class="prompt">{{:assessmentItem.interaction.prompt}}
     </div>
 
     {{for assessmentItem.interaction.choices}}
     <div class="choice" identifier="{{:indentifier}}">
-        <div class="text">{{clean:text}}
+        <div class="text">{{:text}}
         </div>
-        <div class="feedback">{{clean:feedback}}
+        <div class="feedback">{{:feedback}}
         </div>
     </div>
     {{/for}}
