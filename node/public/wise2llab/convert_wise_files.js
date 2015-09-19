@@ -2,7 +2,7 @@
  * New node file
  */
 
-var DEBUG = true;
+var DEBUG = false;
 
 
 var fs = require('fs');
@@ -30,6 +30,18 @@ var sourcedir = args[0];
 var targetdir = args[1];
 var nodedata_lesson = args[2];
 var ext_filter = args[3];
+
+
+// checks
+if (!sourcedir) {
+    throw "Empty source dir argument";
+}
+if (sourcedir === targetdir) {
+    throw "Same source and target dirs!";
+}
+
+    
+    
 
 // nodedata crapola
 var nodedata_dir = "nodedata/";
@@ -66,29 +78,64 @@ if (DEBUG) {
     });
 }
 
+var NUM_PROCESSED = 0;
+var NUM_IGNORED = 0;
+var ignored_files = [];
+
 files.forEach(function(val, index, array) {
     if (DEBUG) {
         console.log("process: " + val);
     }
     var ext = path.extname(val);
+    var basename = path.basename(val, ext);
     if (DEBUG) {
         console.log(" ext: " + ext);
     }
     ext = ext.slice(1);
+    
+    // ignore this extension?
     if (ext_filter && ext_filter !== ext) {
         if (DEBUG) {
             console.log("  ignoring!");
         }
+        NUM_IGNORED += 1;
+        ignored_files.push(val);
         return;
     }
     var valpath = sourcedir + "/" + val;
     var filecontents = fs.readFileSync(valpath, 'utf8');
     var title_from_metadata = get_nodedata_for_file(val);
     var contents = Wise2Lab.convert_file(ext, filecontents, title_from_metadata, val);
+
+    
+    // convert_file noped
+    if (contents === "") {
+        if (DEBUG) {
+            console.log("  couldn't process this filetype ! --> " + basename);
+        }
+        NUM_IGNORED += 1;
+        ignored_files.push(val);
+        return;
+    }
+    
     if (DEBUG) {
         console.log("contents: " + contents);
     }
     
+    var targetPath = targetdir + "/" + basename + ".html";
+    if (fs.existsSync(targetPath)) {
+        console.log("File already exists -- not overwriting: " + targetPath);
+    } else {
+        if (!DEBUG) {
+            fs.writeFileSync(targetPath, contents);
+        }
+    }
+    NUM_PROCESSED += 1;
     
 });
+
+console.log("Processed " + NUM_PROCESSED + " files.");
+console.log();
+console.log("Ignored " + NUM_IGNORED + " files: ");
+ignored_files.forEach(function(element) { console.log("  " + element) });
 

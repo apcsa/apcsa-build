@@ -11,7 +11,7 @@
 var njsrender = require('node-jsrender');
 // var jsrender = require('jsrender');
 var fs = require('fs');
-var $ = require('jquery');
+//var $ = require('jquery');
 
 
 //function get_template(path) {
@@ -19,6 +19,21 @@ var $ = require('jquery');
 //    return (jsrender.templates(tmpl));
 //}
 
+// polyfill str.contains
+if (!('contains' in String.prototype)) {
+    String.prototype.contains = function (str, startIndex) {
+        "use strict";
+        return -1 !== String.prototype.indexOf.call(this, str, startIndex);
+    };
+}
+
+
+function fix_img_src(src) {
+    if (src.indexOf("../../../art") == 0) {
+        src = "/apcsa/r/static/" + src.slice(8);
+    }
+    return src;
+}
 
 
 njsrender.loadFileSync('#emptypage','./templates/empty-curriculum-page.html');
@@ -30,30 +45,37 @@ function convert_file(type, wisecontents, title, filename) {
     var output;
     data['title']=title;
     
-    if (type == "html") {
+    if (type === "html") {
         // ignore title from .topic - html already has it.
         wisecontents = wisecontents.replace("../../../script/loader_main.js", "/apcsa/llab/loader.js");
-        
-        
+        //fix img tags
+        wisecontents = wisecontents.replace("../../../art/", "/apcsa/r/static/art/");
+//        $("img").each(function(){
+//            this.src = fix_img_src(this.src);
+//        });
+        // also, sometimes talk bubbles have non-standard images
+//        $("div.talkBubble").each(function(){
+//            this.char = fix_img_src(this.char);
+//        });
         return wisecontents;
-    } else if (type == "ms") {
+    } else if (type === "ms") {
         // MS
         data['body']=wisems2llabdiv(wisecontents, 0);
         output = njsrender.render['#emptypage'](data)
         return output;
-    } else if (type == "mc") {
+    } else if (type === "mc") {
         data['body']=wisemc2llabdiv(wisecontents, filename);
         output = njsrender.render['#emptypage'](data)
         return output;
-    } else if (type == "bs") {
+    } else if (type === "bs") {
         data['body']=wisebs2llabdiv(wisecontents);
-console.log("HERE" + data['body']);
         output = njsrender.render['#emptypage'](data);
         return output;
     } else {
         console.log("----");
-        console.log("UNKNOWN FILETYPE: " + ext);
+        console.log("UNKNOWN FILETYPE: " + type);
         console.log("----");
+        return "";
     }
 }
 
