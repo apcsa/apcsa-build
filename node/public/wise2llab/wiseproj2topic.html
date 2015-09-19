@@ -7,21 +7,21 @@
         <script type="text/javascript" src="wise2llab.js"></script>
         <script type="text/javascript">
         	function convert() {
-        		var wiseproj = $("#wiseproj").val();
-        		var targetdir = $("#targetdir").val();
-        		var topicstr = Wise2Lab.wiseproj2llabtopic(wiseproj, targetdir);
+        		wiseproj = $("#wiseproj").val();
+        		targetdir = $("#targetdir").val();
+        		topicstr = Wise2Lab.wiseproj2llabtopic(wiseproj, targetdir);
         		$("#topic").val(topicstr);
         	}
         	
-        	$(document).ready(function(){
-        		// stick a test project json in there
-        		$.get("./testsamples/lesson2.project.json", 
-        				"", 
-        				function(data) {
-        					$("#wiseproj").val(data);
-        				}, 
-        				"html");
-        	});
+//         	$(document).ready(function(){
+//         		// stick a test project json in there
+//         		$.get("./testsamples/lesson2.project.json", 
+//         				"", 
+//         				function(data) {
+//         					$("#wiseproj").val(data);
+//         				}, 
+//         				"html");
+//         	});
         </script>
     </head>
 

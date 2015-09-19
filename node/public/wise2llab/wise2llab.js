@@ -25,6 +25,8 @@ var Wise2Lab = (function($) {
     var targetdir;
 
     function wiseproj2llabtopic(projjson, target) {
+        topicfile = "";
+        i=0;
         var proj;
         clearerr();
         try {
@@ -319,11 +321,11 @@ var Wise2Lab = (function($) {
     // //////////////////////////////////////////
     // exports
     // /////////////////////////////////////////
-    memyself["convert_file"] = convert_file;
+    //memyself["convert_file"] = convert_file;
     
     memyself["indent_string"] = indent_string;
-    memyself["wiseproj2meabtopic"] = wiseproj2llabtopic;
-    memyself["wmeemc2llabdiv"] = wisemc2llabdiv;
+    memyself["wiseproj2llabtopic"] = wiseproj2llabtopic;
+    memyself["wisemc2llabdiv"] = wisemc2llabdiv;
     memyself["wisebs2llabdiv"] = wisebs2llabdiv;
     // todo something with the arrme deferreds we've collected...
     memyself["deferreds"] = deferreds;
@@ -331,4 +333,4 @@ var Wise2Lab = (function($) {
 
 }(jQuery));
         
-module.exports = Wise2Lab;
+//module.exports = Wise2Lab;

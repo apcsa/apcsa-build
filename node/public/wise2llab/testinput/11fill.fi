@@ -1,0 +1,45 @@
+{
+   "assessmentItem": {
+      "adaptive": false,
+      "identifier": "Fillin",
+      "interaction": [
+         {
+            "text": "<p audio=\"1\">Fill in the blank in the code below so that the rewritten <tt>feed</tt> method has exactly the same effect on <tt>hunger</tt> as the original.<br/><br/><pre>   public void  feed ( ) { <br/>      hunger = hunger - 10;<br/>      if ( ",
+            "type": "htmltext"
+         },
+         {
+            "expectedLength": "15",
+            "responseIdentifier": "response_0",
+            "type": "textEntryInteraction"
+         },
+         {
+            "text": " ) { <br/>         hunger = 0;<br/>      }<br/>      face.setMessage('Yum, thanks');<br/>      face.setImage('normal');<br/>   } </pre>",
+            "type": "htmltext"
+         }
+      ],
+      "outcomeDeclaration": {
+         "baseType": "float",
+         "cardinality": "single",
+         "identifier": "SCORE"
+      },
+      "responseDeclarations": [{
+         "correctResponses": [
+                { "response":"hunger<0",
+                  "value":"1"
+            	},
+           		{ "response":"hunger < 0",
+                  "value":"1"
+            	},
+            	{ "response":"hunger <0",
+                  "value":"1"
+            	},
+            	{ "response":"hunger< 0",
+                  "value":"1"
+            	}
+         ],
+         "identifier": "response_0"
+      }],
+      "timeDependent": false
+   },
+   "type": "Fillin"
+}
