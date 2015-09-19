@@ -76,7 +76,7 @@ if (DEBUG) {
     files.forEach(function(val, index, array) {
         console.log(index + ": " + val);
     });
-}
+} 
 
 var NUM_PROCESSED = 0;
 var NUM_IGNORED = 0;
