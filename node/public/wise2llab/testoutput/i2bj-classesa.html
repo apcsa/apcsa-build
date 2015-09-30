@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <script>
+            vocabClass = "top0";
+            helpClass = "top0";
+        </script>
+        <script type="text/javascript" src="/apcsa/llab/loader.js">
+        </script>
+        <script type="text/javascript">
+            var WinRef;
+            function openChild(url){
+                WinRef = window.open(url, "WindName", "width=800,height=600,resizable=yes,scrollbars=yes");
+                return false;
+            }
+        </script>
+        <title>Classes in projects (a)</title>
+    </head>
+    <body>
+    <div class="key top100">
+        <p audio="classA1">
+            In BlueJ, every class is represented as a box, 
+            with arrows showing the relationship between classes.
+        </p>
+    </div>
+    <div class="talkBubble" align="left" color="blue" char="constance4">
+        <p audio="classA2.f1">
+            Now, let's take a look at the content of the <tt>GameBoard</tt>
+            project <a class="slideshowLink" href="slideshow2.html" onClick="return openChild(this.href);">1</a>. 
+            As the screenshot shows, BlueJ shows a project as a collection of rectangles with arrows.
+        </p>
+    </div>
+    <p audio="classA3">
+        Each of the rectangles represents a class in the project. 
+        In the <tt>GameBoard</tt>
+        project there are two classes, the <tt>GamePiece</tt> class and 
+        the <tt>GameBoard</tt>
+        class.
+    </p>
+    <p class="quoteOrange" audio="classA4">
+        The arrows between the rectangles show how the classes relate to one another. 
+        If there is an arrow pointing from one rectangle to another rectangle,  
+        it means that the class corresponding 
+        to the first rectangle <em>uses</em>
+        the class corresponding to the second rectangle. 
+        This means that there is some behavior or instance variable in the <tt>GameBoard</tt>
+        class that 
+        makes, refers to, or changes a <tt>GamePiece </tt>object.
+    </p>
+    </div>
+</body>
+</html>

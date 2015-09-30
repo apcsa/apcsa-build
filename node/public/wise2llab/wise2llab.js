@@ -301,13 +301,16 @@ var Wise2Lab = (function($) {
         
         // ignore the parsed json, though.
         // right now we'll do things embedded-- insert json as string
+        // Nate changed hack to application/json rather than javascript...
+        // TODO -- gonna need to change this for multiple matchsequence divs !
         var scripttag_value = "";
-        if (i == 0) {
-            // first time, gotta initialize llab_ms_myModels
-            scripttag_value = scripttag_value + " var llab_ms_myModels = []; ";
-        }
-        scripttag_value = scripttag_value + " llab_ms_myModels[" + i + "] = "
-                + wisemsjson;
+//        if (i == 0) {
+//            // first time, gotta initialize llab_ms_myModels
+//            scripttag_value = scripttag_value + " var llab_ms_myModels = []; ";
+//        }
+//        scripttag_value = scripttag_value + " llab_ms_myModels[" + i + "] = "
+//                + wisemsjson;
+        scripttag_value = wisemsjson;  // stick it in directly
         wisems["everything"] = scripttag_value;
         var output = $.render["wisemsembedded"](wisems);
 

@@ -2,6 +2,8 @@
  * New node file
  */
 
+// NOTE: BUG MAKING TOPIC FILES -- if basename ends in number, removes trailing slash
+
 var DEBUG = false;
 
 
@@ -10,10 +12,18 @@ var path = require('path');
 var Wise2Lab = require('./wise2llab_nodelib');
 
 
+//TODO -- doesn't change every img tag, just first one!!
+
+
 // call from node, command line
-//  arg1 source dir, where to read wise files
-//  arg2 target dir, where to write llab files
+//  arg1 source dir, relative to \cygwin\home\nate\git\apcsa\apcsa-r\main\cur_wise\ ,
+       //where to read wise files
+       // eg, c1\lesson2_first_Programming
+//  arg2 target dir,relative to \cygwin\home\nate\git\apcsa\apcsa-r\main\cur\
+       //where to write llab files
+       // eg, c1/L2_first_programing
 //  arg3 lesson number of nodedata file (wise project.json) - 
+       // needsthe file in ./nodedata/lessonXX.project.json
 //  arg4 filter for file type?
 
 
@@ -32,18 +42,27 @@ var nodedata_lesson = args[2];
 var ext_filter = args[3];
 
 
-// checks
+// 
 if (!sourcedir) {
     throw "Empty source dir argument";
 }
 if (sourcedir === targetdir) {
     throw "Same source and target dirs!";
 }
+sourcedir = "/cygwin/home/nate/git/apcsa/apcsa-r/main/cur_wise/" + sourcedir;
+targetdir = "/cygwin/home/nate/git/apcsa/apcsa-r/main/cur/" + targetdir;
+if (!(fs.existsSync(sourcedir))) {
+    throw ("Source dir doesn't exist");
+}
+if (!(fs.existsSync(targetdir))) {
+    throw ("Target dir doesn't exist");
+}
 
-    
-    
 
 // nodedata crapola
+if (!nodedata_lesson) {
+    throw ("Nodedata lesson argument missing");
+}
 var nodedata_dir = "nodedata/";
 if (nodedata_lesson < 10) {
     nodedata_lesson = "0" + ("" + nodedata_lesson);
@@ -106,7 +125,6 @@ files.forEach(function(val, index, array) {
     var filecontents = fs.readFileSync(valpath, 'utf8');
     var title_from_metadata = get_nodedata_for_file(val);
     var contents = Wise2Lab.convert_file(ext, filecontents, title_from_metadata, val);
-
     
     // convert_file noped
     if (contents === "") {
@@ -114,7 +132,11 @@ files.forEach(function(val, index, array) {
             console.log("  couldn't process this filetype ! --> " + basename);
         }
         NUM_IGNORED += 1;
-        ignored_files.push(val);
+        if (ext === "ht") {
+            ignored_files.push("(ht file)" + val); 
+        } else {
+            ignored_files.push("(unknown ext) " + val);
+        }
         return;
     }
     
@@ -124,12 +146,17 @@ files.forEach(function(val, index, array) {
     
     var targetPath = targetdir + "/" + basename + ".html";
     if (fs.existsSync(targetPath)) {
-        console.log("File already exists -- not overwriting: " + targetPath);
-    } else {
-        if (!DEBUG) {
+        if (DEBUG) {
+            console.log("File already exists -- not overwriting: " + targetPath);
+        }
+        NUM_IGNORED += 1;
+        ignored_files.push("(file exists) " + val);
+        return;
+    }
+
+    if (!DEBUG) {
             fs.writeFileSync(targetPath, contents);
         }
-    }
     NUM_PROCESSED += 1;
     
 });
