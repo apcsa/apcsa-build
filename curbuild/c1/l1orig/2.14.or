@@ -1,0 +1,25 @@
+{
+   "assessmentItem": {
+      "adaptive": false,
+      "identifier": "OpenResponse",
+      "interaction": {
+         "expectedLines": "6",
+         "hasInlineFeedback": false,
+         "placeholderText": "",
+         "prompt": "\n\n\n\n\n\n\n\n                    <p audio=\"1\">\n\n\n\n\n\n\n\n                    Give a sequence of keystrokes that results in\n\n\n\n\n\n\n\naccumulator behaviors being performed twice and\n\n\n\n\n\n\n\n27 appearing on the display   \n\n\n\n\n\n\n\n <\/p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                ",
+         "responseIdentifier": "OR"
+      },
+      "responseDeclaration": {
+         "baseType": "string",
+         "cardinality": "single",
+         "identifier": "OR"
+      },
+      "timeDependent": false
+   },
+   "isRichTextEditorAllowed": false,
+   "starterSentence": {
+      "display": "0",
+      "sentence": ""
+   },
+   "type": "OpenResponse"
+}

@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"5",
+         "prompt":"Can the operations \"pop up the toast\" and \"stop toasting\" be combined? Explain why or why not.",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "identifier":"zyj7Mp6pkL",
+         "name":"Joe",
+         "response":"My toaster pops up but still is glowing, so they have to be separate operations."
+      },
+      {
+         "identifier":"pjo1l5wlPH",
+         "name":"Sondra",
+         "response":"I can manually pop the toaster up, so that means it's different from the \"stop toaster\" operation."
+      },
+      {
+         "identifier":"CtRKYbyYGJ",
+         "name":"Nathaniel Hawthorne",
+         "response":"They're the same, since both operations stop the toasting."
+      }
+   ],
+   "displayName":"0",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"",
+   "type":"Brainstorm",
+   "useServer":true
+}

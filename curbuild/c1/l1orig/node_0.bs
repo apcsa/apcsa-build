@@ -1,0 +1,28 @@
+{
+   "assessmentItem": {
+      "adaptive": false,
+      "identifier": "Brainstorm",
+      "interaction": {
+         "expectedLines": "0",
+         "prompt": "                    <p audio=\"1\">\n\n                    Give a sequence of keystrokes that results in\n\naccumulator behaviors being performed twice and\n\n27 appearing on the display.   \n\n </p>",
+         "responseIdentifier": "Brainstorm"
+      },
+      "timeDependent": false
+   },
+   "cannedResponses": [{
+      "name": "Horiah Mendes",
+      "response": "3\n\nENTER\n\n*\n\n7\n\nENTER"
+   }],
+   "displayName": "0",
+   "isGated": true,
+   "isInstantPollActive": false,
+   "isPollEnded": false,
+   "isRichTextEditorAllowed": true,
+   "starterSentence": {
+      "display": "0",
+      "sentence": ""
+   },
+   "title": "",
+   "type": "Brainstorm",
+   "useServer": true
+}

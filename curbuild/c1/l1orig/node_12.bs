@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"5",
+         "prompt":"Why isn't there a variable specifying whether or not the toaster has power? ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "identifier":"NKWm2qINaD",
+         "name":"Joe",
+         "response":"We just don't care if the toaster is unplugged."
+      },
+      {
+         "identifier":"ItWNnNl1Vc",
+         "name":"Sondra",
+         "response":"We're not simulating that level of detail."
+      },
+      {
+         "identifier":"sBPMFCvG3c",
+         "name":"Pat",
+         "response":"My toaster is battery powered, so it never turns off."
+      }
+   ],
+   "displayName":"0",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"",
+   "type":"Brainstorm",
+   "useServer":true
+}

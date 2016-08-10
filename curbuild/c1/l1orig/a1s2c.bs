@@ -1,0 +1,45 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"6",
+         "prompt":"<p audio=\"brainstorm1\"> We've identified two alarm clock behaviors:</p> <ul> <li audio=\"2\"><i>sound the alarm</i></li><li audio=\"3\"><i>set the alarm time</i></li></ul>  <p audio=\"4\"> What other behaviors can be exhibited by an alarm clock?  List at least two ideas in your response below.</p>",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Nathaniel Hawthorne",
+         "response":"1. Moving second hands\u000a\u000a2. Running out of battery? (Does that count?)",
+         "identifier":"piEsNLWRqD"
+      },
+      {
+         "identifier":"EEt4D8mmHc",
+         "name":"Mike",
+         "response":"How about handling a snooze alarm? One behavior is dealing with hitting the snooze button, and another will sound the alarm again after the snooze."
+      },
+      {
+         "identifier":"X27CdHgEiS",
+         "name":"Sondra",
+         "response":"setting the clock after a power outage.\u000aneed a way to turn the alarm off"
+      },
+      {
+         "identifier":"4yi5pWOS6c",
+         "name":"Terry",
+         "response":"Displaying the time in military format, for example, 20:32.\u000aTurning on the alarm"
+      }
+   ],
+   "displayName":"1",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"Alarm Clock Brainstorm",
+   "type":"Brainstorm",
+   "useServer":true
+}

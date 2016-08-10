@@ -1,0 +1,180 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"MatchSequence",
+      "interaction":{
+         "choices":[{
+               "matchMax":"1",
+               "value":"set the darkness indicator",
+               "identifier":"choice_0"
+            },
+            {
+               "matchMax":"1",
+               "value":"start the toaster",
+               "identifier":"choice_1"
+            },
+            {
+               "matchMax":"1",
+               "value":"insert bread into slot 1",
+               "identifier":"choice_2"
+            },
+            {
+               "matchMax":"1",
+               "value":"insert bread into slot 2",
+               "identifier":"choice_3"
+            },
+            {
+               "matchMax":"1",
+               "value":"remove the bread from slot 1",
+               "identifier":"choice_4"
+            },
+            {
+               "matchMax":"1",
+               "value":"remove the bread from slot 2",
+               "identifier":"choice_5"
+            },
+            {
+               "matchMax":"1",
+               "value":"stop the toaster",
+               "identifier":"choice_6"
+            }
+         ],
+         "fields":[{
+               "identifier":"field_0",
+               "numberOfEntries":"0",
+               "ordinal":false,
+               "name":"internally activated"
+            },
+            {
+               "identifier":"field_1",
+               "numberOfEntries":"0",
+               "ordinal":false,
+               "name":"externally activated"
+            }
+         ],
+         "hasInlineFeedback":true,
+         "ordered":false,
+         "prompt":"Classify each toaster behavior according to whether it's externally or internally activated.",
+         "responseIdentifier":"MatchSequence",
+         "shuffle":false
+      },
+      "responseDeclaration":{
+         "correctResponses":[{
+               "choiceIdentifier":"choice_0",
+               "fieldIdentifier":"field_1",
+               "feedback":"Correct.",
+               "isCorrect":true,
+               "isDefault":false,
+               "order":"0"
+            },
+            {
+               "choiceIdentifier":"choice_0",
+               "fieldIdentifier":"field_0",
+               "isCorrect":false,
+               "isDefault":false,
+               "order":"0",
+               "feedback":"This is done by a person, so it's externally activated."
+            },
+            {
+               "choiceIdentifier":"choice_1",
+               "fieldIdentifier":"field_1",
+               "feedback":"Correct.",
+               "isCorrect":true,
+               "isDefault":false,
+               "order":"0"
+            },
+            {
+               "choiceIdentifier":"choice_1",
+               "fieldIdentifier":"field_0",
+               "isCorrect":false,
+               "isDefault":false,
+               "order":"0",
+               "feedback":"This is done by a person, so it's externally activated."
+            },
+            {
+               "choiceIdentifier":"choice_2",
+               "fieldIdentifier":"field_1",
+               "feedback":"Correct.",
+               "isCorrect":true,
+               "isDefault":false,
+               "order":"0"
+            },
+            {
+               "choiceIdentifier":"choice_2",
+               "fieldIdentifier":"field_0",
+               "isCorrect":false,
+               "isDefault":false,
+               "order":"0",
+               "feedback":"This is done by a person, so it's externally activated."
+            },
+            {
+               "choiceIdentifier":"choice_3",
+               "fieldIdentifier":"field_1",
+               "feedback":"Correct.",
+               "isCorrect":true,
+               "isDefault":false,
+               "order":"0"
+            },
+            {
+               "choiceIdentifier":"choice_3",
+               "fieldIdentifier":"field_0",
+               "isCorrect":false,
+               "isDefault":false,
+               "order":"0",
+               "feedback":"This is done by a person, so it's externally activated."
+            },
+            {
+               "choiceIdentifier":"choice_4",
+               "fieldIdentifier":"field_1",
+               "feedback":"Correct.",
+               "isCorrect":true,
+               "isDefault":false,
+               "order":"0"
+            },
+            {
+               "choiceIdentifier":"choice_4",
+               "fieldIdentifier":"field_0",
+               "isCorrect":false,
+               "isDefault":false,
+               "order":"0",
+               "feedback":"This is done by a person, so it's externally activated."
+            },
+            {
+               "choiceIdentifier":"choice_5",
+               "fieldIdentifier":"field_1",
+               "feedback":"Correct.",
+               "isCorrect":true,
+               "isDefault":false,
+               "order":"0"
+            },
+            {
+               "choiceIdentifier":"choice_5",
+               "fieldIdentifier":"field_0",
+               "isCorrect":false,
+               "isDefault":false,
+               "order":"0",
+               "feedback":"This is done by a person, so it's externally activated."
+            },
+            {
+               "choiceIdentifier":"choice_6",
+               "fieldIdentifier":"field_0",
+               "feedback":"Correct.",
+               "isCorrect":true,
+               "isDefault":false,
+               "order":"0"
+            },
+            {
+               "choiceIdentifier":"choice_6",
+               "fieldIdentifier":"field_1",
+               "isCorrect":false,
+               "isDefault":false,
+               "order":"0",
+               "feedback":"This is done from inside the toaster, so it's internally activated."
+            }
+         ],
+         "identifier":"MatchSequence"
+      },
+      "timeDependent":false
+   },
+   "type":"MatchSequence"
+}

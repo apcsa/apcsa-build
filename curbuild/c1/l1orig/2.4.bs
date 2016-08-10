@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"8",
+         "prompt":"<p audio=\"1\">\u000a                    Give some instances of a class named <strong>book</strong>.\u000a                    Also describe what state information the book class might have.</p>\u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Patty",
+         "response":"\u000a            \"The Tale of Two Cities\",\u000a            \"Black Stallion\",\u000a            \"Where the Wild Things Are\"\u000a            The state information for a book might include its author and the content type (fiction, nonfiction, reference, etc.)\u000a        ",
+         "identifier":"QXSecvE6YM"
+      },
+      {
+         "name":"Mateo",
+         "response":"\u000a            My class BOOK contains some classics like:\u000a            <i>\"One Flew Over the Cuckoo's Nest\"</i>\u000a            <i>\"Friday the 13th part V\"</i>\u000a            <i>\"The Lord of the Flies\"</i>\u000a            \u000a            Some state information about the book might be its Genre, its Publication Date, its Physical Condition, and its \"Existentialism Rating\"  ha ha\u000a        ",
+         "identifier":"88C3pkd7iz"
+      },
+      {
+         "identifier":"mTVAFjfnAd",
+         "name":"Mike",
+         "response":"If it's an electronic book, all the e-books on Amazon would be instances.  The state would include the text of the book and a bookmark (a page number) saying where you left off."
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"",
+   "type":"Brainstorm",
+   "useServer":true
+}

@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"8",
+         "prompt":"\u000a                    <center>\u000a                    \u000a                    <img style=\"margin: 4px;\" \u000asrc=\"../../../assets/art_McDonalds.png\" width=300 alt=\"A McDonalds hamburger store\" />\u000a                     </center>\u000a                    <p audio=\"1\">\u000a                    For some applications, a program might include a class named\u000a\u0009\u0009\u0009\u0009\u0009 <i>restaurant</i>, of which a McDonald's restaurant \u000a\u0009\u0009\u0009\u0009\u0009 might be an instance.  Describe a situation in which a McDonald's \u000a\u0009\u0009\u0009\u0009\u0009 restaurant could be a <em>class</em>, give some instances, \u000a\u0009\u0009\u0009\u0009\u0009 and say what its state information would be.\u000a                    </p>\u000a                    \u000a                   \u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Peter",
+         "response":"\u000a            I am not sure about this.  How can it be a class if it was already an instance?   And McDonald's definitely is not classy. Ha Ha.\u000a        ",
+         "identifier":"qpVtiG7PyS"
+      },
+      {
+         "name":"Sujarata",
+         "response":"\u000a            I'd guess McD's could be a class if you're talking about the chain of stores.  So the instances would be:\u000a            -  Franchise X\u000a            -  Franchise Y\u000a            -  Franchise Z\u000a            \u000a            And state information could be things like the Construction Date, the Money Made Per Week, the Total Number of People Served, etc\u000a        ",
+         "identifier":"SqUMEpBrE6"
+      },
+      {
+         "identifier":"Di4ly4Y8LX",
+         "name":"Mike",
+         "response":"There are lots of individual McDonald stores, but they all are based on a pattern.  The pattern would be a class. The state information could be the menu, the location, the owner."
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"test2",
+   "type":"Brainstorm",
+   "useServer":true
+}

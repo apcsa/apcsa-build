@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"0",
+         "prompt":"<p audio=\"1\">\u000a                    Suppose we want to represent volume on a portable music player \u000a\u0009\u0009\u0009\u0009\u0009(i.e. how loud or soft the music is playing). \u000a\u0009\u0009\u0009\u0009\u0009How would you do this? \u000a\u0009\u0009\u0009\u0009\u0009Can you represent it in more than one way?  \u000a\u0009\u0009\u0009\u0009\u0009Explain your answer.</p>\u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Crimmins",
+         "response":"\u000a            Well, for detailed information about the state of the volume I'd use a number.\u000a        ",
+         "identifier":"P1Qf8rCyAY"
+      },
+      {
+         "name":"Jodi",
+         "response":"\u000a            A number is the best variable for the state of the volume, but I also might use a Boolean to track if this is the Earbud or External Speaker volume setting  (an either/or situation)\u000a        ",
+         "identifier":"pBHAfa8RDi"
+      },
+      {
+         "identifier":"fZ7RN0azjB",
+         "name":"Joe",
+         "response":"I would use a number, with big numbers representing loud and small numbers representing low volume."
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"3.8",
+   "type":"Brainstorm",
+   "useServer":true
+}

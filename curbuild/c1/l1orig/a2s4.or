@@ -1,0 +1,21 @@
+<JournalEntry>
+    <jaxbXML>
+        <assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p0" xmlns:ns3="http://www.w3.org/1998/Math/MathML" xmlns:ns2="http://www.w3.org/1999/xlink" timeDependent="false" adaptive="false" identifier="Entry">
+            <responseDeclaration baseType="string" cardinality="single" identifier="JournalEntry"/>
+            <itemBody>
+                <extendedTextInteraction hasInlineFeedback="false" placeholderText="" responseIdentifier="JournalEntry" expectedLines="0">
+                    
+                    <prompt xmlns="">
+                        <p audio="1">The journal tool is a place for you to keep notes as you work through the course.
+                        <br />
+                        <br />
+                        You can have as many entries as you want. At some points through the course, we'll ask you to make an entry with your thoughts on something that happened, or some concept that we covered.  You take notes in the box below.
+                        <br />
+                        <br />
+                        You can get to the journal tool at any time by clicking on the "journal button" at the left.</p>
+                    </prompt>
+                </extendedTextInteraction>
+            </itemBody>
+        </assessmentItem>
+    </jaxbXML>
+</JournalEntry>

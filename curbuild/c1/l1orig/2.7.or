@@ -1,0 +1,25 @@
+{
+   "assessmentItem": {
+      "adaptive": false,
+      "identifier": "OpenResponse",
+      "interaction": {
+         "expectedLines": "6",
+         "hasInlineFeedback": false,
+         "placeholderText": "",
+         "prompt": "\n                    <p>\n                    Give an instance of the playing card class, and specify the values of its rank and suit variables.\n                    <\/p>\n                ",
+         "responseIdentifier": "OR"
+      },
+      "responseDeclaration": {
+         "baseType": "string",
+         "cardinality": "single",
+         "identifier": "OR"
+      },
+      "timeDependent": false
+   },
+   "isRichTextEditorAllowed": false,
+   "starterSentence": {
+      "display": "0",
+      "sentence": ""
+   },
+   "type": "OpenResponse"
+}

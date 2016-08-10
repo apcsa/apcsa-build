@@ -6,7 +6,8 @@
     "start": "node node/app.js"
   },
   "dependencies": {
+    "ejs": "*",
     "express": "3.2.6",
-    "ejs": "*"
+    "jsrender": "0.0.3"
   }
 }

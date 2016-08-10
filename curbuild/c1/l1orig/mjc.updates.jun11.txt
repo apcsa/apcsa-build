@@ -1,0 +1,11 @@
+1.4.html => 1.4.memory.html, 1.4.variables.html, 1.4.alarmclock.html
+
+1.8.html => 1.8.toasterstate.html, 1.8.toastervariables.html
+
+1.11.html => 1.11.paragraphs.html, 1.11.parameters.html
+
+1.7.html: We are *required* to have some information in the alarm clock
+to know which of the behaviors to select.  The text implies that we can
+describe the clock based solely on the various behaviors, which is misleading.
+
+glossary is in glossary.txt; I couldn't find how to create a glossary entry.

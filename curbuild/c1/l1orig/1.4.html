@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script>
+            vocabClass = "top100";
+            helpClass = "top0";
+        </script>
+        <script type="text/javascript" src="../../../script/loader_main.js">
+        </script>
+        <title>State: What an object "knows"</title>
+    </head>
+    <body>
+        <div class="key top25">
+            <p audio="1">Each variable has a name and a value.</p>
+            <p audio="2">Behaviors are actions that the object can perform; state consists of information (variables) that the object can remember.</p>
+        </div>
+        <p audio="3">An alarm clock has to be pretty good at <em>remembering</em> when it will do the "ring the alarm" behavior, 
+            or it would be a very poor alarm clock.  
+            Each object, either in the real world or in programming, needs to have a <em>memory</em>. </p>
+        <p audio="4">The way to have memory in object-oriented programming is to create a set of information items 
+            associated with a programming object. 
+            We call each of these a <span class="vocab">variable</span>. </p>
+        <p audio="5">A programming object can keep track of many different pieces of information 
+            by containing many different variables.  
+            We refer to each variable by its <span class="vocab">name</span>. 
+            Each variable will also have a <span class="vocab">value</span>, the thing that is being remembered. 
+            Taken together, the set of information is called the object's <b>state</b>.</p>
+        <p audio="6">The alarm clock object should have a variable named <i>alarm time</i>, 
+            which could take a value such as "5 am", or "8:45 am", or basically any time.  
+            The behavior "ring the alarm" needs to know the value of that piece of information in order to work properly. 
+            Similarly, the behavior "set the alarm time" needs to change the value of that piece of information  
+            in order to work properly. </p>
+        <div audio="7" class="quoteBlue">
+            A rule of thumb in programming: behaviors generally don't change, but information often will.
+        </div>
+    </body>
+</html>

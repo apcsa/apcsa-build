@@ -1,0 +1,30 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"5",
+         "prompt":"List the behaviors activated by the tick behavior in the clock-plus-calendar.",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "identifier":"MEpmGtPjS5",
+         "name":"Mike:",
+         "response":"The tick method first increments the clock time. If it's midnight, the clock asks the calendar to move ahead one day. Then if the clock time and the alarm time are equal and the current date and the alarm date and the alarm is enabled, it sounds the alarm."
+      }
+   ],
+   "displayName":"0",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"The clock-plus-calendar tick behavior",
+   "type":"Brainstorm",
+   "useServer":true
+}

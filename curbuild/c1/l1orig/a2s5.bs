@@ -1,0 +1,22 @@
+<Brainstorm title="" isGated="true" displayName="0" isRichTextEditorAllowed="true" isPollEnded="false" isInstantPollActive="false">
+    <assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p0" xmlns:ns3="http://www.w3.org/1998/Math/MathML" xmlns:ns2="http://www.w3.org/1999/xlink" timeDependent="false" adaptive="false">
+        <itemBody>
+            <extendedTextInteraction responseIdentifier="BRAINSTORM" expectedLines="6">
+                <prompt>
+                    <p audio="1">What is your favorite restaurant?
+                    <br/><br/>
+                    Write your answer in the box below, and include an explanation of why it's your favorite.
+                    </p>
+                </prompt>
+            </extendedTextInteraction>
+        </itemBody>
+    </assessmentItem>
+    <cannedResponses>
+        <response name="Betty B.">
+            For special occasions, it has to be Gregoire's.  It's great and I can actually afford it.
+        </response>
+        <response name="Hiroki T.">
+            Dude, i am totally crazy about Kirala's.  Best sushi on the west coast.
+        </response>
+    </cannedResponses>
+</Brainstorm>

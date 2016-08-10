@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"8",
+         "prompt":"\u000a          <p audio=\"1\">If you were to represent yes-or-no information using numbers,\u000a          what number would be \"yes\" and what would be \"no\"?</p>\u000a          \u000a        ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Lucia",
+         "response":"\u000a      I would use -1 for no and 1 for yes. Negative should mean no and positive should mean yes.\u000a    ",
+         "identifier":"uxuggu7jfw"
+      },
+      {
+         "name":"Jean-Luc",
+         "response":"\u000a      Let's see.  I guess 1 for Yes because you have some value, and 0 for No because you've got nada.\u000a    ",
+         "identifier":"0V7hFQOrtJ"
+      },
+      {
+         "name":"Real Programmer Person",
+         "response":"\u000a      Programmers generally use 0 for no, or \"false\", and any other number for yes, or \"true\".  In Java, \u000a      though, we wouldn't use a number for yes-or-no information in the first place!  That's why\u000a      Java has boolean values...\u000a    ",
+         "identifier":"pWWLThc1JN"
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"3.2",
+   "type":"Brainstorm",
+   "useServer":true
+}

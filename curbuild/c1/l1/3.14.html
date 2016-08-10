@@ -1,0 +1,32 @@
+<html>
+<head>
+<script>
+	vocabClass = "top0";
+	helpClass = "top0";
+</script>
+<script type="text/javascript" src="../../../script/loader_main.js">
+	
+</script>
+<title>Drawing a game board</title>
+</head>
+<body>
+<img src="../../../assets/art_board_jump.png" width="290" />
+<p audio="1">We'll now work with a simulation of a program to draw a figure on the screen that represents a 4x4 game
+board on which is placed one game piece. The positions on the board are pairs of numbers: a row number (between 1 and 4) and
+a column number (also between 1 and 4). A piece at position (1, 1) is at the 
+upper left corner of the board; the position (3,4) is where the robot
+<tt>Float</tt> will land
+in the picture above.</p>
+<p audio="2">Our game board class is organized as follows. The internal state is the position of the piece (a row number
+and a column number) and the color to make the board. There are several methods:</p>
+<ul>
+		<li audio="3">A constructor.</li>
+		<li audio="4"><code> drawBoard ( ) </code> draws the whole board.</li>
+		<li audio="5"><code> drawHorizontalLine (int) </code> draws a horizontal line at a given position on the screen.</li>
+		<li audio="6"><code> drawVerticalLine (int) </code> draws a vertical line at a given position on the screen.</li>
+		<li audio="7"><code> drawPiece ( ) </code> draws the piece.</li>
+		<li audio="8"><code> move (int, int) </code> moves the piece to the given position and changes its state accordingly.</li>
+		<li audio="9"><code> erase ( ) </code> erases the board.</li>
+</ul>
+</body>
+</html>

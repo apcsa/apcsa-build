@@ -1,0 +1,39 @@
+represent (as, a programming object represents a real-world object)
+	?
+name
+	What we use to refer to a variable.
+value
+	The information contained in a variable or represented by a constant;
+	more generally, the result of evaluation of an expression.
+variable
+	A named box, or storage location, that contains a particular kind of data, its value.
+	A variable may contain only one value, but this value may change 
+	as the result of an assignment statement.
+parameter
+	In general, a particular value that is substituted for a general term.  
+	In Java, a parameter is listed in the method header, where it says 
+	what kind of information must be passed to the method so that the method
+	may perform its action successfully.  Compare argument.
+expression
+	Any legal Java representation of a value.  A variable or constant is the
+	simplest expression; more complicated expressions include operators or
+	method calls.
+evaluate (an expression)
+	Compute the value of. 
+argument
+	A value passed to a method when the method is executed.
+assignment statement
+	A Java statement that has three parts, a variable name (the "left hand side"
+	of the assignment), an equals sign, and an expression (the "right hand side"). 
+	It is executed by first evaluating the right hand side, then storing the 
+	resulting value into the variable named on the left hand side. 
+object-oriented programming
+	?
+object
+	An instance of a class.
+class
+	A pattern for defining objects.
+method
+	A representation of an object's behavior.
+instance variable
+	A variable that represents part of an object's state.

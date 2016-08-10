@@ -1,0 +1,50 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"8",
+         "prompt":"\u000a                    <p audio=\"1\">What are the behaviors and state for a cell phone?  \u000a\u0009\u0009\u0009\u0009\u0009<br/>\u000a                    Create a post below that includes one (or more) behaviors and one \u000a\u0009\u0009\u0009\u0009\u0009(or more) state variables.</p>\u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Javier",
+         "response":"\u000a            One obvious behavior is making a call.  \u000a\u0009\u0009\u0009When I type a number into my phone, the send button \u000a\u0009\u0009\u0009calls that behavior.  For state, a phone has to know the number \u000a\u0009\u0009\u0009I just dialed.\u000a        ",
+         "identifier":"jZrDHWh7GK"
+      },
+      {
+         "name":"Joe",
+         "identifier":"RHPNwgurvC",
+         "response":"If it has a \"vibrate\" setting instead of rings, it will need to set and get that setting. The variable contains the value of that setting."
+      },
+      {
+         "identifier":"mwE43bu77f",
+         "name":"Mike",
+         "response":"How about a variable that keeps track of the ring tone? Behavior would be to do that keeping track. "
+      },
+      {
+         "identifier":"mXo21xcs5T",
+         "name":"nguyen",
+         "response":"Keep track of the time of day so it can tell you what time someone called."
+      },
+      {
+         "identifier":"kFML15OD4e",
+         "name":"Nathaniel Hawthorne",
+         "response":"Answer the phone.  I don't know what variable will be needed."
+      }
+   ],
+   "displayName":"1",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":false,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"Cell phone state and behaviors",
+   "type":"Brainstorm",
+   "useServer":true
+}

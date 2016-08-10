@@ -1,0 +1,25 @@
+{
+   "assessmentItem": {
+      "adaptive": false,
+      "identifier": "Brainstorm",
+      "interaction": {
+         "expectedLines": "0",
+         "prompt": "\n          <p audio=\"1\">\n          Some of an object's behaviors may be <em>invisible</em>.\n          That is, they are obviously happening somehow, but not in a way that a\n          person (or program) outside the object can see or can interact with.\n          </p>\n          <p audio=\"2\">\n          For example, a toaster needs to count down the time once it has\n\t\t  been turned on, but this isn't something a person can see directly.\n          </p>\n          <p audio=\"3\">\n          Describe another invisible behavior of  a toaster.\n          </p>\n        ",
+         "responseIdentifier": "Brainstorm"
+      },
+      "timeDependent": false
+   },
+   "cannedResponses": [],
+   "displayName": "0",
+   "isGated": true,
+   "isInstantPollActive": false,
+   "isPollEnded": false,
+   "isRichTextEditorAllowed": true,
+   "starterSentence": {
+      "display": "0",
+      "sentence": ""
+   },
+   "title": "Invisible Behaviors",
+   "type": "Brainstorm",
+   "useServer": true
+}

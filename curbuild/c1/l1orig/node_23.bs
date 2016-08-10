@@ -1,0 +1,35 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"5",
+         "prompt":"<p audio=\"1\">Go back to step 4 and look for behaviors listed there that should have a variable as just illustrated. List an example.</p>",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "identifier":"VNDfeHEZd7",
+         "name":"Nathaniel Hawthorne",
+         "response":"If there were a \"move second hand\" behavior, it would need a variable that says what to move it to."
+      },
+      {
+         "identifier":"LN8YVRlJ4d",
+         "name":"Mike",
+         "response":"A snooze alarm might require a behavior \"reset the alarm time to ___\""
+      }
+   ],
+   "displayName":"0",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"",
+   "type":"Brainstorm",
+   "useServer":true
+}

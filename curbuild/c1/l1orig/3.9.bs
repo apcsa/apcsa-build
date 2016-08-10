@@ -1,0 +1,45 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"6",
+         "prompt":"\u000a                <p audio=\"1\">\u000a                    Suppose you decided to represent the volume on a portable music player\u000a                    as a number. How would you decide what values \u000a\u0009\u0009\u0009\u0009\u0009to choose for the maximum and minimum volume levels?</p>\u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Zha",
+         "response":"\u000a            I'd want to know the physical capability of the speaker, like its decibel range, then I'd spread the number values across this range.\u000a        ",
+         "identifier":"qk6M0GCQ35"
+      },
+      {
+         "name":"Artie",
+         "response":"\u000a            I don't get this.  Can't it be any number?  Sort of like the speakers in Spinal Tap that can go to eleven.\u000a        ",
+         "identifier":"DDqs0w7tIu"
+      },
+      {
+         "identifier":"xlnEDIKv7w",
+         "name":"Joe",
+         "response":"A big number, say, 10000, would represent the loudest volume and a small number, say -10000, would represent the smallest volume."
+      },
+      {
+         "identifier":"EdTmgrvWZe",
+         "name":"Mike",
+         "response":"It makes sense to have 0 represent no volume at all and bigger numbers to represent louder volumes."
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"3.10",
+   "type":"Brainstorm",
+   "useServer":true
+}

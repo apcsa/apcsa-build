@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"6",
+         "prompt":"\u000a\u000a                    <p audio=\"1\">How would you represent the internal state of a toaster?</p>\u000a\u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Ruby",
+         "response":"My guess is with a diagram that includes stuff like the temperature, and whether there is toast inside the toaster, and whether it's on.",
+         "identifier":"NLj5ive1di"
+      },
+      {
+         "identifier":"HF7lDPmPzF",
+         "name":"Joe",
+         "response":"Variables for\u000a* the time the bread has been toasting (a number)\u000a* whether each slot contains any bread (a boolean)\u000a* how dark we want the toast (a number?)"
+      },
+      {
+         "identifier":"UzAGJLqMzA",
+         "name":"Pat",
+         "response":"The bread and how long it's been toasting"
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"3.11",
+   "type":"Brainstorm",
+   "useServer":true
+}

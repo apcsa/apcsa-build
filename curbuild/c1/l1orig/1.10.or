@@ -1,0 +1,25 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"OpenResponse",
+      "interaction":{
+         "expectedLines":"5",
+         "hasInlineFeedback":false,
+         "placeholderText":"",
+         "prompt":"\u000a          <p audio=\"1\">We noticed earlier that we could replace a lot of behaviors with a single behavior and some information. This happens a lot in programming: we recognize similarity in behaviors, and we unify these behaviors into one, with the similarity represented as information. We'll do that now.</p><p audio=\"2\">Start by writing three paragraphs.</p><ol><li audio=\"3\"> Write instructions for making a strawberry milk shake.</li><li audio=\"4\"> Write instructions for making a blueberry milk shake.</li><li audio=\"5\"> Write instructions for making a raspberry milk shake.</li></ol><center><meta content=\"modified PD images from http://commons.wikimedia.org/wiki/File:Strawberry_milkshake.jpg\"><img src=\"../../../assets/art_milkshake_2.png\" width=\"120\" alt=\"milkshake2\"  /><img src=\"../../../assets/art_milkshake_4.png\" width=\"120\" alt=\"milkshake4\" /><img src=\"../../../assets/art_milkshake_3.png\" width=\"120\" alt=\"milkshake3\" /> </center>",
+         "responseIdentifier":"OR"
+      },
+      "responseDeclaration":{
+         "baseType":"string",
+         "cardinality":"single",
+         "identifier":"OR"
+      },
+      "timeDependent":false
+   },
+   "isRichTextEditorAllowed":false,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "type":"OpenResponse"
+}

@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Interactiing objects</title>
+</head>
+<script>
+        vocabClass = "top25";
+	</script>
+	<script type="text/javascript" src="../../../script/loader_main.js">
+	        
+		</script>
+
+<body>
+
+<p>
+Suppose we want a more sophisticated alarm clock, one that includes
+a calendar. This new alarm clock can be set to activate at any time on any day within a year.
+</p>
+<p>
+We can model this enhanced clock as <i>two</i> objects&emdash;a clock and a calendar&emdash;that communicate with each other. Just as the clock's state includes a current time and an alarm time, so will the calendar's state include a current date and an alarm date.
+Here are some behaviors.
+</p>
+<table>
+<tr><td>clock behaviors</td><td>calendar behaviors</td></tr>
+<tr>
+<td>
+<pre>
+compare the alarm time and the clock time
+set the clock time
+set the alarm time
+enable the alarm sound
+disable the alarm sound
+sound the alarm
+tick
+</pre>
+</td>
+<td>
+<pre>
+compare the alarm date and the calendar date
+set the calendar date
+set the alarm date
+add 1 day to the calendar date
+</pre>
+</td>
+</tr>
+</table>
+</body>
+</html>

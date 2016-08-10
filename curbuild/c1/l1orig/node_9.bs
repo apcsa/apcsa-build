@@ -1,0 +1,25 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"5",
+         "prompt":"<p>\u000aSuppose we want a more sophisticated alarm clock, one that includes a calendar. This new alarm clock can be set to activate at any time on any day within a year. Along with the clock time, a model of such a clock would contain two dates: the clock date and the alarm date.\u000a</p>\u000a<p>\u000aList the new behaviors that the new kind of clock would require, and explain your answers.\u000a</p>",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[],
+   "displayName":"0",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"A clock-plus-calendar",
+   "type":"Brainstorm",
+   "useServer":true
+}

@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script>
+            vocabClass = "top0";
+            helpClass = "top0";
+        </script>
+        <script type="text/javascript" src="../../../script/loader_main.js">
+        </script>
+        <title>Behavior and State: working together</title>
+    </head>
+    <body>
+        <p audio="behaviorstate1">Here is one way to describe an alarm clock: </p>
+        <div audio="behaviorstate2" class="quoteBrown">
+            "An alarm clock has many different 'sound the alarm' behaviors, 
+            one for each possible time that it can sound the alarm. 
+            Thus there is a 'sound the alarm at 5am' behavior, a 'sound the alarm at 5:01' behavior, and so forth."
+        </div>
+        <p audio="behaviorstate3">This description uses no information, only behaviors. The behaviors are quite similar; 
+        they're all of the form:</p>
+        <div audio="behaviorstate4" class="quoteBrown">
+        "Sound the alarm at ______ ."
+        </blockquote>
+    </div>
+    <p audio="behaviorstate5">Here is a better description that turns the "______" into <em>information</em>:</p>
+    <div audio="behaviorstate6" class="quoteOrange">
+        "An alarm clock has one 'sound the alarm' behavior, 
+        and one variable that remembers what time the alarm should go off."
+    </div>
+    <p audio="behaviorstate7">The use of the information "what time the alarm should go off" 
+        has simplified the clock's description <em>a lot</em>.
+        This holds in general: behaviors that use information in the object's state 
+        simplifies an object's description.</p>
+    </body>
+</html>

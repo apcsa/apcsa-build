@@ -1,0 +1,45 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"6",
+         "prompt":"<p audio=\"1\">\u000a                    How would you represent a date in this century (say, December 25, 2008)?</p>\u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Emily",
+         "response":"\u000a            I'd have a string for the month and numbers for the day of the month and the year.\u000a        ",
+         "identifier":"mpczR5xAPs"
+      },
+      {
+         "name":"Morel",
+         "response":"\u000a            For a date in this century, I think I would use a number, counting from the number of days since the start of the 21st century.\u000a        ",
+         "identifier":"gaNO6fyNPT"
+      },
+      {
+         "identifier":"fo0s7EOECJ",
+         "name":"Mike",
+         "response":"I would have a string that looks like a standard date, for example 9/10/2010."
+      },
+      {
+         "identifier":"q4IfznEvmq",
+         "name":"Joe",
+         "response":"I would use three numbers, one for the month, one for the year, and the other for the date."
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"Data Representation",
+   "type":"Brainstorm",
+   "useServer":true
+}

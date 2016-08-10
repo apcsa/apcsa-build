@@ -1,0 +1,40 @@
+{
+   "assessmentItem":{
+      "adaptive":false,
+      "identifier":"Brainstorm",
+      "interaction":{
+         "expectedLines":"0",
+         "prompt":"\u000a                    <p audio=\"1\">Suppose you chose to represent the volume (loudness) of a music player as a string. What string would you use to represent the following?</p>\u000a                    <ol style=\"text-align:left;margin-left:100px;\">\u000a                    <li audio=\"2\">the maximum volume</li>\u000a                    <li audio=\"3\">the minimum volume</li>\u000a                    <li audio=\"4\">some volume between max and min</li>\u000a                    <li audio=\"5\">the volume level when the device is turned off</li>\u000a                    </ol>\u000a                ",
+         "responseIdentifier":"Brainstorm"
+      },
+      "timeDependent":false
+   },
+   "cannedResponses":[{
+         "name":"Tima",
+         "response":"\u000a            This seems hard. We could use \"loudest\", \"least\", and \"off\", but I don't know how to give names to volume levels in between.\u000a        ",
+         "identifier":"zjLovIzd5H"
+      },
+      {
+         "name":"Dwayne",
+         "response":"\u000a            Just names for the conditions. So:  \"loudest\" \"softest\"\u000a        ",
+         "identifier":"qQzVJHrAch"
+      },
+      {
+         "identifier":"jva13DJcV5",
+         "name":"Mike",
+         "response":"The empty string could represent \"off\", and longer strings could represent louder volumes. For example, \"x\" could be minimmum volume and \"xxxxxx...x\" (lots of x's) the maximum value."
+      }
+   ],
+   "displayName":"2",
+   "isGated":true,
+   "isInstantPollActive":false,
+   "isPollEnded":false,
+   "isRichTextEditorAllowed":true,
+   "starterSentence":{
+      "display":"0",
+      "sentence":""
+   },
+   "title":"3.10",
+   "type":"Brainstorm",
+   "useServer":true
+}
