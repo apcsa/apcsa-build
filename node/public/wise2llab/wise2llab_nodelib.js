@@ -49,7 +49,10 @@ function convert_file(type, wisecontents, title, filename) {
         // ignore title from .topic - html already has it.
         wisecontents = wisecontents.replace("../../../script/loader_main.js", "/apcsa/llab/loader.js");
         //fix img tags
+//<<<<<<< HEAD
         // TODO -- only first one replaced!!
+//=======
+//>>>>>>> 0ca080fce55111697775d48f2ff1322d592f6472
         wisecontents = wisecontents.replace("../../../art/", "/apcsa/r/static/art/");
 //        $("img").each(function(){
 //            this.src = fix_img_src(this.src);
@@ -72,11 +75,18 @@ function convert_file(type, wisecontents, title, filename) {
         data['body']=wisebs2llabdiv(wisecontents);
         output = njsrender.render['#emptypage'](data);
         return output;
-    } else if (type === "ht" || type === "or" || type === "fi" ) {
-        //nope
-        return "";
-    }{
+//<<<<<<< HEAD
+//    } else if (type === "ht" || type === "or" || type === "fi" ) {
+//        //nope
+//        return "";
+//    }{
+//        console.log("UNKNOWN FILETYPE: " + type);
+//=======
+    } else {
+        console.log("----");
         console.log("UNKNOWN FILETYPE: " + type);
+        console.log("----");
+//>>>>>>> 0ca080fce55111697775d48f2ff1322d592f6472
         return "";
     }
 }

@@ -43,12 +43,13 @@ var ext_filter = args[3];
 
 
 // 
-if (!sourcedir) {
-    throw "Empty source dir argument";
-}
-if (sourcedir === targetdir) {
-    throw "Same source and target dirs!";
-}
+// checks
+//if (!sourcedir) {
+//    throw "Empty source dir argument";
+//}
+//if (sourcedir === targetdir) {
+//    throw "Same source and target dirs!";
+//}
 sourcedir = "/cygwin/home/nate/git/apcsa/apcsa-r/main/cur_wise/" + sourcedir;
 targetdir = "/cygwin/home/nate/git/apcsa/apcsa-r/main/cur/" + targetdir;
 if (!(fs.existsSync(sourcedir))) {
@@ -58,6 +59,9 @@ if (!(fs.existsSync(targetdir))) {
     throw ("Target dir doesn't exist");
 }
 
+
+    
+    
 
 // nodedata crapola
 if (!nodedata_lesson) {
@@ -96,6 +100,10 @@ if (DEBUG) {
         console.log(index + ": " + val);
     });
 } 
+
+var NUM_PROCESSED = 0;
+var NUM_IGNORED = 0;
+var ignored_files = [];
 
 var NUM_PROCESSED = 0;
 var NUM_IGNORED = 0;
@@ -144,19 +152,40 @@ files.forEach(function(val, index, array) {
         console.log("contents: " + contents);
     }
     
-    var targetPath = targetdir + "/" + basename + ".html";
-    if (fs.existsSync(targetPath)) {
+//<<<<<<< HEAD
+//    var targetPath = targetdir + "/" + basename + ".html";
+//    if (fs.existsSync(targetPath)) {
+//        if (DEBUG) {
+//            console.log("File already exists -- not overwriting: " + targetPath);
+//        }
+//        NUM_IGNORED += 1;
+//        ignored_files.push("(file exists) " + val);
+//        return;
+//    }
+//
+//    if (!DEBUG) {
+//            fs.writeFileSync(targetPath, contents);
+//        }
+//=======
+    // convert_file noped
+    if (contents === "") {
         if (DEBUG) {
-            console.log("File already exists -- not overwriting: " + targetPath);
+            console.log("  couldn't process this filetype ! --> " + basename);
         }
         NUM_IGNORED += 1;
-        ignored_files.push("(file exists) " + val);
+        ignored_files.push(val);
         return;
     }
-
-    if (!DEBUG) {
+    
+    var targetPath = targetdir + "/" + basename + ".html";
+    if (fs.existsSync(targetPath)) {
+        console.log("File already exists -- not overwriting: " + targetPath);
+    } else {
+        if (!DEBUG) {
             fs.writeFileSync(targetPath, contents);
         }
+    }
+//>>>>>>> 0ca080fce55111697775d48f2ff1322d592f6472
     NUM_PROCESSED += 1;
     
 });
