@@ -1,14 +1,14 @@
-/* jshint jquery: true, latedef: nofunc  */
-
 /*
  * converts old wise projects from veritas to llab topics as well as possible.
  * llab.b  (build)
- * 
+ *
  */
 
-// NODE 
+// NODE
 
 var njsrender = require('node-jsrender');
+
+/* jshint jquery: true, latedef: nofunc  */
 // var jsrender = require('jsrender');
 var fs = require('fs');
 //var $ = require('jquery');
@@ -49,10 +49,7 @@ function convert_file(type, wisecontents, title, filename) {
         // ignore title from .topic - html already has it.
         wisecontents = wisecontents.replace("../../../script/loader_main.js", "/apcsa/llab/loader.js");
         //fix img tags
-//<<<<<<< HEAD
         // TODO -- only first one replaced!!
-//=======
-//>>>>>>> 0ca080fce55111697775d48f2ff1322d592f6472
         wisecontents = wisecontents.replace("../../../art/", "/apcsa/r/static/art/");
 //        $("img").each(function(){
 //            this.src = fix_img_src(this.src);
@@ -75,18 +72,13 @@ function convert_file(type, wisecontents, title, filename) {
         data['body']=wisebs2llabdiv(wisecontents);
         output = njsrender.render['#emptypage'](data);
         return output;
-//<<<<<<< HEAD
 //    } else if (type === "ht" || type === "or" || type === "fi" ) {
 //        //nope
 //        return "";
-//    }{
-//        console.log("UNKNOWN FILETYPE: " + type);
-//=======
     } else {
         console.log("----");
         console.log("UNKNOWN FILETYPE: " + type);
         console.log("----");
-//>>>>>>> 0ca080fce55111697775d48f2ff1322d592f6472
         return "";
     }
 }
@@ -95,6 +87,7 @@ function convert_file(type, wisecontents, title, filename) {
 
 
 function clean(val) {
+    if (val === null || val===undefined) {return null};
     // keep the new lines why not
     val = val.replace(/\t/g, " ");
     val = val.replace(/  +/g, " ");
@@ -126,7 +119,7 @@ function wisemc2llabdiv(wisemcjson, filename) {
     choices.forEach(function(choice, i, array) {
         array[i].text = clean(array[i].text);
         array[i].feedback = clean(array[i].feedback);
-    })
+    });
     //var output = mctmpl(wisemc);
     var output = njsrender.render['#mctmpl'](wisemc);
     
