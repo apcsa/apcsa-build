@@ -12,7 +12,7 @@ var path = require('path');
 var Wise2Lab = require('./wise2llab_nodelib');
 
 
-//TODO -- doesn't change every img tag, just first one!!
+//TODO -- doesn't change every img tag, just first four!!
 
 
 // call from node, command line
@@ -99,10 +99,20 @@ function addSeqAndChildren (seq, indent) {
             : addNode(ref, indent + 4);
     })
 }
-
+/* ICONS
+ .group, .reading, .extresource, .video, .forum,
+ .resource, .assignment, .homework, .quiz, .codeit,
+ .simulation, .matchsequence, .fillblank, .summary,
+ .brainstorm, .display
+ */
 function convertType (icon) {
     // TODO flesh this out, to get the new and improved icons in place
-    return icon;
+    switch (icon) {
+        case "intro": return "resource";
+        case "multiplechoice": return "quiz";
+        case "curriculum": return "reading";
+        default: return icon;
+    }
 }
 
 function addNode(id, indent) {

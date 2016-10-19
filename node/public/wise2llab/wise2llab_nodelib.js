@@ -49,7 +49,10 @@ function convert_file(type, wisecontents, title, filename) {
         // ignore title from .topic - html already has it.
         wisecontents = wisecontents.replace("../../../script/loader_main.js", "/apcsa/llab/loader.js");
         //fix img tags
-        // TODO -- only first one replaced!!
+        // TODO -- only up to 4 replaced!!
+        wisecontents = wisecontents.replace("../../../art/", "/apcsa/r/static/art/");
+        wisecontents = wisecontents.replace("../../../art/", "/apcsa/r/static/art/");
+        wisecontents = wisecontents.replace("../../../art/", "/apcsa/r/static/art/");
         wisecontents = wisecontents.replace("../../../art/", "/apcsa/r/static/art/");
 //        $("img").each(function(){
 //            this.src = fix_img_src(this.src);
@@ -173,12 +176,13 @@ function wisems2llabdiv(wisemsjson, div_index_on_page) {
     // ignore the parsed json, though.
     // right now we'll do things embedded-- insert json as string
     var scripttag_value = "";
-    if (i == 0) {
-        // first time, gotta initialize llab_ms_myModels
-        scripttag_value = scripttag_value + " var llab_ms_myModels = []; ";
-    }
-    scripttag_value = scripttag_value + " llab_ms_myModels[" + i + "] = "
-            + wisemsjson;
+//    if (i == 0) {
+//        // first time, gotta initialize llab_ms_myModels
+//        scripttag_value = scripttag_value + " var llab_ms_myModels = []; ";
+//    }
+//    scripttag_value = scripttag_value + " llab_ms_myModels[" + i + "] = "
+//            + wisemsjson;
+    scripttag_value = wisemsjson;  // stick it in directly
     wisems["everything"] = scripttag_value;
     //var output = mstmpl(wisems);
     var output = njsrender.render['#mstmpl'](wisems);
