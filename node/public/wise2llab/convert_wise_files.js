@@ -63,7 +63,7 @@ var nodedata_dir = "nodedata/";
 if (nodedata_lesson < 10) {
     nodedata_lesson = "0" + ("" + nodedata_lesson);
 } else {
-    nodedata_lesson = String.valueOf(nodedata_lesson);
+    nodedata_lesson = "" + nodedata_lesson;
 }
 var nodedata_lesson_filename = "lesson" + nodedata_lesson + ".project.json";
 var nodedata_str = fs.readFileSync(nodedata_dir + nodedata_lesson_filename, 'utf8');
