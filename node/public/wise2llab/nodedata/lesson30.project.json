@@ -1,0 +1,98 @@
+{
+   "autoStep": true,
+   "nodes": [
+      {
+         "class": "intro",
+         "identifier": "intro",
+         "previousWorkNodeIds": [],
+         "ref": "intro.ht",
+         "title": "Practicing AP Test Questions",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "multi",
+         "previousWorkNodeIds": [],
+         "ref": "multi.ht",
+         "title": "Multiple-Choice Questions",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "free",
+         "previousWorkNodeIds": [],
+         "ref": "free.ht",
+         "title": "Free-Response Questions",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "panic",
+         "previousWorkNodeIds": [],
+         "ref": "panic.ht",
+         "title": "Don't Panic!",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "study",
+         "previousWorkNodeIds": [],
+         "ref": "study.ht",
+         "title": "Study Hard!",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "practice",
+         "previousWorkNodeIds": [],
+         "ref": "practice.ht",
+         "title": "Practice Makes Perfect",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "goodluck",
+         "previousWorkNodeIds": [],
+         "ref": "goodluck.ht",
+         "title": "Good Luck!",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "practiceexam",
+         "previousWorkNodeIds": [],
+         "ref": "practiceexam.bs",
+         "title": "Practice Exam Reflection",
+         "type": "BrainstormNode"
+      }
+   ],
+   "sequences": [
+      {
+         "identifier": "master",
+         "refs": ["seq_0"],
+         "title": "master",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_0",
+         "refs": [
+            "intro",
+            "practice",
+            "practiceexam",
+            "multi",
+            "free",
+            "panic",
+            "study",
+            "goodluck"
+         ],
+         "title": "Practicing for the AP Exam",
+         "type": "sequence",
+         "view": ""
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 9: Lesson 30"
+}

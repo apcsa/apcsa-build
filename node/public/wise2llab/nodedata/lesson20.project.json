@@ -1,0 +1,114 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 6: Lesson 20",
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"support0",
+         "title":"GridWorld support classes",
+         "ref":"support0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"support1",
+         "title":"The Location class",
+         "ref":"support1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"support2",
+         "title":"The Grid interface",
+         "ref":"support2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"support3",
+         "title":"The Actor class",
+         "ref":"support3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"support4",
+         "title":"The Bug class revisited",
+         "ref":"support4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"support5",
+         "title":"A disappearing bug",
+         "ref":"support5.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"support6",
+         "title":"A Jumper class",
+         "ref":"support6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"support7",
+         "title":"Jumper test cases",
+         "ref":"support7.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"support8",
+         "title":"Jumper design",
+         "ref":"support8.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_0"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"GridWorld infrastructure",
+         "view":"",
+         "refs":["support0",
+            "support1",
+            "support2",
+            "support3",
+            "support4",
+            "support5",
+            "support6",
+            "support7",
+            "support8"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

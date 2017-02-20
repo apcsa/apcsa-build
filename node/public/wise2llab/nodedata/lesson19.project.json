@@ -1,0 +1,240 @@
+{
+   "autoStep":true,
+   "stepLevelNum":false,
+   "stepTerm":"",
+   "title":"Unit 6: Lesson19",
+   "constraints":[],
+   "nodes":[{
+         "type":"HtmlNode",
+         "identifier":"intro0",
+         "title":"The GridWorld case study",
+         "ref":"intro0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro0.5",
+         "title":"Setting up GridWorld",
+         "ref":"intro0.5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro1",
+         "title":"Running GridWorld",
+         "ref":"intro1.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"intro2",
+         "title":"Additional experiments needed?",
+         "ref":"intro2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"intro3",
+         "title":"Which experiments?",
+         "ref":"intro3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"intro4",
+         "title":"Bug heading southwest OLD",
+         "ref":"intro4.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"intro5",
+         "title":"Exercises",
+         "ref":"intro5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_1.bs",
+         "title":"Bug heading southwest",
+         "ref":"node_1.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"bug2",
+         "title":"BoxBugs",
+         "ref":"bug2.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"bug3",
+         "title":"BoxBug overriding",
+         "ref":"bug3.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"bug4",
+         "title":"Colored BoxBugs",
+         "ref":"bug4.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"bug5",
+         "title":"Do You Know, set 2",
+         "ref":"bug5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"bug6",
+         "title":"Exercises",
+         "ref":"bug6.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"bug7",
+         "title":"One more exercise",
+         "ref":"bug7.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"bug0",
+         "title":"Exploring Actor subclasses",
+         "ref":"bug0.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"intro"
+      },
+      {
+         "type":"MultipleChoiceNode",
+         "identifier":"node_0.mc",
+         "title":"Call question",
+         "ref":"node_0.mc",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"multiplechoice"
+      },
+      {
+         "type":"BrainstormNode",
+         "identifier":"node_2.bs",
+         "title":"Inheritance choices",
+         "ref":"node_2.bs",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"brainstorm"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_3.ht",
+         "title":"Focus on Bug.act",
+         "ref":"node_3.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      },
+      {
+         "type":"MatchSequenceNode",
+         "identifier":"node_4.ms",
+         "title":"Which class contains a given method?",
+         "ref":"node_4.ms",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"matchsequence"
+      },
+      {
+         "type":"HtmlNode",
+         "identifier":"node_5.ht",
+         "title":"Moving on to part 2",
+         "ref":"node_5.ht",
+         "previousWorkNodeIds":[],
+         "links":[],
+         "class":"curriculum"
+      }
+   ],
+   "sequences":[{
+         "type":"sequence",
+         "identifier":"master",
+         "title":"master",
+         "view":"",
+         "refs":["seq_0",
+            "seq_3",
+            "seq_2"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_0",
+         "title":"Introduction to GridWorld",
+         "view":"",
+         "refs":["intro0",
+            "intro0.5",
+            "intro1",
+            "intro2",
+            "intro3",
+            "node_1.bs",
+            "intro5"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_2",
+         "title":"Extending the Bug class",
+         "view":"normal",
+         "refs":["node_5.ht",
+            "bug2",
+            "bug3",
+            "bug4",
+            "bug5",
+            "bug6",
+            "bug7"
+         ]
+      },
+      {
+         "type":"sequence",
+         "identifier":"seq_3",
+         "title":"Examining the code for Actor and Bug",
+         "view":"normal",
+         "refs":["bug0",
+            "node_2.bs",
+            "node_3.ht",
+            "node_4.ms",
+            "node_0.mc"
+         ]
+      }
+   ],
+   "startPoint":"master"
+}

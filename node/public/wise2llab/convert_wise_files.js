@@ -26,6 +26,15 @@ var Wise2Lab = require('./wise2llab_nodelib');
        // needsthe file in ./nodedata/lessonXX.project.json
 //  arg4 filter for file type?
 
+/*  eg
+   node ./convert_wise_files.js unit4_ArrayLists/lesson14_shuffle_sort c3/L14_shuffle_sort 14
+   //copy files to apcsa-r, cleanup syllabus, check conversions
+   node apcsa-nodeserver/bin/www  //to use localhost
+
+   // push to aws
+   ssh -i ~/.ssh/other/id_rsa ubuntu@ec2-54-153-35-4.us-west-1.compute.amazonaws.com
+ */
+
 
 var args = process.argv.slice(2);
 

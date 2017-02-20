@@ -1,0 +1,134 @@
+{
+   "autoStep": true,
+   "nodes": [
+      {
+         "class": "intro",
+         "identifier": "critter0",
+         "previousWorkNodeIds": [],
+         "ref": "critter0.ht",
+         "title": "Critters",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "critter1",
+         "previousWorkNodeIds": [],
+         "ref": "critter1.ht",
+         "title": "Critter processing",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "critter10",
+         "previousWorkNodeIds": [],
+         "ref": "critter10.bs",
+         "title": "Critterly love",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "critter11",
+         "previousWorkNodeIds": [],
+         "ref": "critter11.bs",
+         "title": "Tracing an act call",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "critter12",
+         "previousWorkNodeIds": [],
+         "ref": "critter12.ht",
+         "title": "Critter extension",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "critter2",
+         "previousWorkNodeIds": [],
+         "ref": "critter2.bs",
+         "title": "Override getActors?",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "critter3",
+         "previousWorkNodeIds": [],
+         "ref": "critter3.bs",
+         "title": "Processing actors?",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "critter4",
+         "previousWorkNodeIds": [],
+         "ref": "critter4.ht",
+         "title": "Extending Critter",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "critter6",
+         "previousWorkNodeIds": [],
+         "ref": "critter6.bs",
+         "title": "ChameleonCritter makeMove method",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "brainstorm",
+         "identifier": "critter7",
+         "previousWorkNodeIds": [],
+         "ref": "critter7.bs",
+         "title": "ChameleonCritter flower scatterer",
+         "type": "BrainstormNode"
+      },
+      {
+         "class": "matchsequence",
+         "identifier": "node_0.ms",
+         "previousWorkNodeIds": [],
+         "ref": "node_0.ms",
+         "title": "ChameleonCritter overrides",
+         "type": "MatchSequenceNode"
+      },
+      {
+         "class": "multiplechoice",
+         "identifier": "node_1.mc",
+         "previousWorkNodeIds": [],
+         "ref": "node_1.mc",
+         "title": "Actor locations",
+         "type": "MultipleChoiceNode"
+      }
+   ],
+   "sequences": [
+      {
+         "identifier": "master",
+         "refs": ["seq_0"],
+         "title": "master",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_0",
+         "refs": [
+            "critter0",
+            "critter1",
+            "critter2",
+            "critter3",
+            "critter4",
+            "node_0.ms",
+            "critter6",
+            "critter7",
+            "node_1.mc",
+            "critter10",
+            "critter11",
+            "critter12"
+         ],
+         "title": "Interacting classes",
+         "type": "sequence",
+         "view": ""
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 6: Lesson 21"
+}

@@ -1,0 +1,170 @@
+{
+   "autoStep": true,
+   "nodes": [
+      {
+         "class": "intro",
+         "identifier": "intro",
+         "previousWorkNodeIds": [],
+         "ref": "intro.ht",
+         "title": "Semester 2 Review",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "intro",
+         "identifier": "intro2",
+         "previousWorkNodeIds": [],
+         "ref": "intro2.ht",
+         "title": "Semester 2 Study Guide",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L16-1",
+         "previousWorkNodeIds": [],
+         "ref": "L16-1.ht",
+         "title": "Lesson 16:  Inheritance",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L17-1",
+         "previousWorkNodeIds": [],
+         "ref": "L17-1.ht",
+         "title": "Lesson 17:  Interfaces, Abstract and Static",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L18-1",
+         "previousWorkNodeIds": [],
+         "ref": "L18-1.ht",
+         "title": "Lesson 18:  Adventure",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L19-1",
+         "previousWorkNodeIds": [],
+         "ref": "L19-1.ht",
+         "title": "Lessons 19-21:  GridWorld",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L22-1",
+         "previousWorkNodeIds": [],
+         "ref": "L22-1.ht",
+         "title": "Lesson 22:  Arrays",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L23-1",
+         "previousWorkNodeIds": [],
+         "ref": "L23-1.ht",
+         "title": "Lesson 23:  Two-Dimensional Arrays",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L24-1",
+         "previousWorkNodeIds": [],
+         "ref": "L24-1.ht",
+         "title": "Lesson 24:  Image Processing",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L25-1",
+         "previousWorkNodeIds": [],
+         "ref": "L25-1.ht",
+         "title": "Lesson 25:  Recursion",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L26-1",
+         "previousWorkNodeIds": [],
+         "ref": "L26-1.ht",
+         "title": "Lesson 26:  Complex Recursion",
+         "type": "HtmlNode"
+      },
+      {
+         "class": "curriculum",
+         "identifier": "L27-1",
+         "previousWorkNodeIds": [],
+         "ref": "L27-1.ht",
+         "title": "Lesson 27:  Merge Sort",
+         "type": "HtmlNode"
+      }
+   ],
+   "sequences": [
+      {
+         "identifier": "master",
+         "refs": [
+            "seq_0",
+            "seq_1",
+            "seq_2",
+            "seq_3",
+            "seq_4"
+         ],
+         "title": "master",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_0",
+         "refs": [
+            "intro",
+            "intro2"
+         ],
+         "title": "Introduction",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_1",
+         "refs": [
+            "L16-1",
+            "L17-1",
+            "L18-1"
+         ],
+         "title": "Reviewing Unit 5",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_2",
+         "refs": ["L19-1"],
+         "title": "Reviewing Unit 6",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_3",
+         "refs": [
+            "L22-1",
+            "L23-1",
+            "L24-1"
+         ],
+         "title": "Reviewing Unit 7",
+         "type": "sequence",
+         "view": ""
+      },
+      {
+         "identifier": "seq_4",
+         "refs": [
+            "L25-1",
+            "L26-1",
+            "L27-1"
+         ],
+         "title": "Reviewing Unit 8",
+         "type": "sequence",
+         "view": ""
+      }
+   ],
+   "startPoint": "master",
+   "stepLevelNum": false,
+   "stepTerm": "",
+   "title": "Unit 9: Lesson 29"
+}
